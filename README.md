@@ -25,7 +25,7 @@
 
 ## Resources
 
-- **TEXT**
+- **TEXTS**:
   - [**JohnsMartin**] T. C. Carusone, D. A. Johns, and K. A. Martin, Analog Integrated Circuit Design, 2nd ed. Wiley, 2012. [Online](https://www.box.com/s/38df9et7alvxdbu/JohnsMartinCarusone-AnalogICDesign-2ndEd-Wiley-2012.pdf?dl=0)
   - [**Uyemura**] Uyemura, John P. "*CMOS Logic Circuit Design*". Springer, 2007
   - [**Rout**], Saroj. 2025. IC Engineering I. [[eBook](https://mixignal-press.github.io/ebook-ice1/)]
@@ -47,6 +47,48 @@
   - [Cheatsheet Xschem](content/cheatsheet_xschem.md)
   - [Cheatsheet Magic](content/magic_cheatsheet.pdf) : by Prof. Harald Pretl
 
+
+**EDA RESOURCES**
+
+- The following two videos are quick start guide to **xschem, ngspice**, and **Magic** (Note: it's based on GF180 PDK but shouldn't matter a lot)
+  - [Video Tutorial Part-1][VideoXschemNgspice]: Design and Simulation using Xschem and ngspice
+  - [Video Tutorial Part-2][VideoMagic]: Layout using Magic 
+- [This companion page](https://github.com/sscs-ose/sscs-chipathon-2026/tree/main/resources/Analog/eda) has some of the steps written down to help with the video tutorials.
+
+- **IIC-OSIC-TOOLS**
+  - [OSIC-TOOLS GitHub Page](https://github.com/iic-jku/iic-osic-tools)
+
+- **End-to-End Design-to-Layout Flow**
+  - [Open Source VLSI](https://github.com/stineje/gf180mcu-open-source-vlsi): A great detail set of deep tutorials from [James Stine](https://github.com/stineje) and team at OSU.
+
+  - [Analog design flow with opensource tools](https://unic-cass.github.io/training/analog-flow.html): Great set of schematic-to-layout tutorials from [IEEE UNIC-CASS](https://unic-cass.github.io/) using the IHP-SG13G2 PDK. 
+  - [Drawing an inverter](https://docs.google.com/document/d/1hSLKsz9xcEJgAMmYYer5cDwvPqas9_JGRUAgEORx1Yw/edit#heading=h.j6gtadx04fb6): A google doc by Ryan Ridley, Teo Ene, and James E. Stine. Detail step-by-step guide for SKY-130nm process.
+  - [Video: Xschem-to-Magic Flow](https://www.youtube.com/watch?v=ZZ5fIBwLZ0k&t=2s): Tiny Tapeout Analog Submission Guide | IEEE Open Silicon IC Design Bootcamp (Philippines) A good 19min succint guide.
+  - [Analog Circuit Design Flow](https://analogicus.com/rply_ex0_sky130nm/tutorial) by Carsten Wulff
+  - [Open-Source Analog Design Flowing using EFabless and SKY130nm (PDF)](docs/Thater-OpenSource-AnalogDesgnFlow-Efabless-SKY130.pdf): Detail end-to-end design flow by by Joshua Thater.
+
+  
+- **xschem-ngspice**:
+  - [Xschem Official Site][XSchem]
+  - [ngspice Official Site][NGSpice]
+  - [ngspice Manual][NGSpiceMan]
+  - [Analog (Integrated) Circuit Design](https://iic-jku.github.io/analog-circuit-design/aicd.html): An excellent analog course from Dr. Harald Pretl from Johannes Kepler University. The course uses xschem, ngspice and IHPSG13G2 for all exercises. 
+  - [Tutorial: Run a simulation with xschem](https://xschem.sourceforge.io/stefan/xschem_man/tutorial_run_simulation.html): a quick step-by-step html guide from the creator Stefan Schippers.
+  - [xschem displaying simulation waveform](https://www.youtube.com/watch?v=bP9w3zm1qv4): a 10min video on embedded graphs by Stephan Schippers.  
+  - [Viewing Simulation Data with xschem](http://repo.hu/projects/xschem/xschem_man/graphs.html): html guide on the official site.
+  - Three part *tutorial videos* using xschem and ngspice with GF180MCU
+    - [Part-1](https://youtu.be/MdywD87-DVg) | [Part-2](https://youtu.be/DLvZSsLAbho) | [Part-3](https://youtu.be/nBnR8Nm_B_I)
+
+- **Magic**
+
+  - [Magic][Magic]: The official site of Magic at opencircuitdesign.com maintained by Tim Edwards. This site has everything you need: source-code/manuals/tutorials/etc
+      - [Magic User Guide from OpenCircuitDesign](http://www.opencircuitdesign.com/magic/userguide.html)
+  - [Magic cheaetsheet](https://github.com/iic-jku/osic-multitool/blob/main/magic-cheatsheet/magic_cheatsheet.pdf) by Harald Pretl.
+  - **Videos**
+    - [10min speedrun of a inverter layout by Matt Venn](https://www.youtube.com/watch?v=IQ_DcWT_cbc)
+    - [Tutorial: Analog Layout of an OpAmp](https://youtu.be/XvBpqKwzrFY?si=AyL0Wr3V4gb954yx) by Tim Edwards. (~1hr 30min)
+    - Magic Tutorials by Carsten Wulff [ [Tutorial-1](https://www.youtube.com/watch?v=ORw5OaY33A4&t=9s)|[Tutorial-2](https://www.youtube.com/watch?v=NUahmUtY814)|[Tutorial-3](https://www.youtube.com/watch?v=OKWM1D0_fPI) ]
+
 - **ONLINE RESOURCES**
   - [SparkFun Analog MEMS Microphone Breakout - SPH8878LR5H-1](https://www.sparkfun.com/sparkfun-analog-mems-microphone-breakout-sph8878lr5h-1.html)
   - [Using Perplexity Spaces](https://www.perplexity.ai/hub/blog/a-student-s-guide-to-using-perplexity-spaces)
@@ -67,4 +109,6 @@
 [NGSpiceMan]:           http://ngspice.sourceforge.net/docs/ngspice-html-manual/manual.xhtml
 [Magic]:                http://opencircuitdesign.com/magic/
 [Netgen]:               http://opencircuitdesign.com/netgen/
-
+[VideoXschemNgspice]:   https://drive.google.com/file/d/1QuJyBosXAcAIhj2Gz0zoxz_EHe3IlhK6/view?usp=sharing
+[VideoMagic]:           https://drive.google.com/file/d/1ffgQrh8-0LQ_lEhNJCcJhuNUZTaG0cDd/view?usp=drive_link
+[XSchem]:               https://xschem.sourceforge.io/stefan/index.html
