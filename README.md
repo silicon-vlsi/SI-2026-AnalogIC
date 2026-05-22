@@ -1,4 +1,4 @@
-# Analog Integrated Circuit (IC) Design
+# SI-2026 Analog IC Design
 
 **SUMMER INTERNSHIP COURSE 2026**
 
@@ -75,6 +75,10 @@
       - :arrow_forward: [10min speedrun of a inverter layout by Matt Venn](https://www.youtube.com/watch?v=IQ_DcWT_cbc)
       - :arrow_forward: [Tutorial: Analog Layout of an OpAmp](https://youtu.be/XvBpqKwzrFY?si=AyL0Wr3V4gb954yx) by Tim Edwards. (~1hr 30min)
       - :arrow_forward: Magic Tutorials by Carsten Wulff [ [Tutorial-1](https://www.youtube.com/watch?v=ORw5OaY33A4&t=9s)|[Tutorial-2](https://www.youtube.com/watch?v=NUahmUtY814)|[Tutorial-3](https://www.youtube.com/watch?v=OKWM1D0_fPI) ]
+
+- **LAB RESOURCE**
+  - :arrow_forward: [ADLAM 2000 Video Series](https://www.youtube.com/watch?v=LCf-_iREESQ&list=PLE6soOeVPOJ0Pj5sMui4KPDiTa7HY50y3)
+ 
 
 - **USEFUL DOCS**
   - [Skywater PDK and DRC Manual](docs/skywater-pdk-readthedocs-io-en-main.pdf)
