@@ -79,7 +79,7 @@
 - **LAB RESOURCES**
   - [ADALM 2000 Wiki](https://wiki.analog.com/m2k)
     - [ADALM 2000 Qucik Start: Install Drivers](https://wiki.analog.com/university/tools/m2k/users/quick_start)
-    - [Install Scopy]()
+    - [Install the GUI interface Scopy](https://wiki.analog.com/university/tools/m2k/scopy)
     - :arrow_forward: [ADLAM 2000 Video Series](https://www.youtube.com/watch?v=LCf-_iREESQ&list=PLE6soOeVPOJ0Pj5sMui4KPDiTa7HY50y3)
   - [Analog Devices Engineering Ubiversity Program](https://wiki.analog.com/university): Lots of great material including Labs, exercised and material related to ADALM M2K
   - 
