@@ -5,15 +5,13 @@
 - **Day 1** (25 May 2026)
   - Introduction to the Course.
   - System Description & Demo of the USB Microphone.
-  - Lab: Basic Linux and github orientation.
+  - Lab: Basic Linux (cli, vim, nano) and github orientation.
   - A short assesment on basic circuits.
 - **Day 2** (26 May)
   - Introduction to Linear Systems: Thevenin/Norton/Node/Mesh/Power Transfer
   - Capacitor and RC circuits (time-constant, integrators, differentiators).
-  - Introduction to basic linux commands and editor vi or nano.
   - Introduction to _Xschem_ schematic editor and _ngspice_ simulator.
 - **Day 3** (27 May)
-  - Linear systems revision.
   - Frequency response of linear circuits.
   - Model and simulate linear systems in xschem-ngspice
 - **Day-4-5** (28-29 May)
