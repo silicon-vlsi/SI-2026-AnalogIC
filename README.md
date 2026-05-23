@@ -76,10 +76,13 @@
       - :arrow_forward: [Tutorial: Analog Layout of an OpAmp](https://youtu.be/XvBpqKwzrFY?si=AyL0Wr3V4gb954yx) by Tim Edwards. (~1hr 30min)
       - :arrow_forward: Magic Tutorials by Carsten Wulff [ [Tutorial-1](https://www.youtube.com/watch?v=ORw5OaY33A4&t=9s)|[Tutorial-2](https://www.youtube.com/watch?v=NUahmUtY814)|[Tutorial-3](https://www.youtube.com/watch?v=OKWM1D0_fPI) ]
 
-- **LAB RESOURCE**
-  - [ADALM2000 Qucik Start: Install Drivers](https://wiki.analog.com/university/tools/m2k/users/quick_start)
-  - [Install Scopy](}
-  - :arrow_forward: [ADLAM 2000 Video Series](https://www.youtube.com/watch?v=LCf-_iREESQ&list=PLE6soOeVPOJ0Pj5sMui4KPDiTa7HY50y3)
+- **LAB RESOURCES**
+  - [ADALM 2000 Wiki](https://wiki.analog.com/m2k)
+    - [ADALM 2000 Qucik Start: Install Drivers](https://wiki.analog.com/university/tools/m2k/users/quick_start)
+    - [Install Scopy]()
+    - :arrow_forward: [ADLAM 2000 Video Series](https://www.youtube.com/watch?v=LCf-_iREESQ&list=PLE6soOeVPOJ0Pj5sMui4KPDiTa7HY50y3)
+  - [Analog Devices Engineering Ubiversity Program](https://wiki.analog.com/university): Lots of great material including Labs, exercised and material related to ADALM M2K
+  - 
  
 
 - **USEFUL DOCS**
