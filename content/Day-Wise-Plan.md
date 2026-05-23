@@ -9,7 +9,7 @@
   - A short assesment on basic circuits.
 - **Day 2** (26 May)
   - Introduction to Linear Systems: Thevenin/Norton 
-  - 
+  - RC circuits.
   - Introduction to basic linux commands and editor vi or nano.
   - Introduction to _Xschem_ schematic editor and _ngspice_ simulator.
 - **Day 3** (27 May)
