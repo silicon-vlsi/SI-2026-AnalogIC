@@ -2,20 +2,21 @@
 
 ## Overview
 
-This 2-hour laboratory introduces undergraduate electrical engineering students to the Analog Devices ADALM2000 (M2K), a USB-powered software-defined instrument that works with the Scopy application on a computer.[web:31][page:1] The platform combines several lab tools in one device, including a two-channel oscilloscope, a two-channel arbitrary waveform generator, a voltmeter, and programmable power supplies, making it suitable for introductory circuits and measurements work.[page:1][page:2]
+This 2-hour laboratory introduces undergraduate electrical engineering students to the Analog Devices ADALM2000 (M2K), a USB-powered software-defined instrument that works with the Scopy application on a computer [1][2]. The platform combines several lab tools in one device, including a two-channel oscilloscope, a two-channel arbitrary waveform generator, a voltmeter, and programmable power supplies, making it suitable for introductory circuits and measurements work [1][2].
 
-In this lab, students learn how to connect the ADALM2000, identify the main Scopy instrument windows, and perform basic measurements using the voltage source, volt-ohm style measurement workflow with the voltmeter, waveform generator, and oscilloscope.[page:1][page:2] The activities emphasize safe wiring, simple signal generation, and interpretation of measured voltage, resistance, frequency, and waveform shape.[page:1]
+In this lab, students learn how to connect the ADALM2000, identify the main Scopy instrument windows, and perform basic measurements using the voltage source, voltmeter, waveform generator, and oscilloscope [1][2]. The activities emphasize safe wiring, simple signal generation, and interpretation of measured voltage, resistance, frequency, and waveform shape [1][2].
 
 ## Learning Outcomes
 
 By the end of this lab, students should be able to:
 
-- Identify the ADALM2000 as a portable lab instrument controlled from a host computer through Scopy.[page:1][page:2]
-- Locate and use the basic Scopy tools needed for this session: power supplies, voltmeter, waveform generator, and oscilloscope.[page:1][page:2]
-- Generate a low-frequency sine and square wave using the waveform generator.[page:1]
-- Measure DC voltage and simple passive components using the voltmeter and resistance-measurement workflow.[page:1]
-- Observe time-domain signals on the oscilloscope and estimate amplitude, offset, period, and frequency.[page:1][page:2]
-- Follow safe operating limits and good grounding practice while using a USB-powered instrument.[page:1]
+- Identify the ADALM2000 as a portable lab instrument controlled from a host computer through Scopy [1][2].
+- Locate and use the basic Scopy tools needed for this session: power supplies, voltmeter, waveform generator, and oscilloscope [1][2].
+- Generate a low-frequency sine and square wave using the waveform generator [1][2].
+- Measure DC voltage in simple circuits using the voltmeter [1][2].
+- Check resistor values using an appropriate resistance-measurement method available in the lab [3].
+- Observe time-domain signals on the oscilloscope and estimate amplitude, offset, period, and frequency [1][2].
+- Follow safe operating limits and good grounding practice while using a USB-powered instrument [1][2].
 
 ## Lab Duration
 
@@ -35,55 +36,55 @@ Total duration: 2 hours.
 
 Each student group should have:
 
-- 1 Analog Devices ADALM2000 unit.[page:2]
-- 1 computer with Scopy installed.[page:1][page:2]
-- 1 USB cable for the ADALM2000 connection.[page:2]
+- 1 Analog Devices ADALM2000 unit [1][2].
+- 1 computer with Scopy installed [1][2].
+- 1 USB cable for the ADALM2000 connection [1].
 - 1 solderless breadboard.
 - Jumper wires.
 - Resistors: 220 ohm, 1 kilo-ohm, and 10 kilo-ohm.
-- Optional: BNC adapter board or grabber leads if available.[page:2]
+- Optional: BNC adapter board or grabber leads if available [2].
 
 ## Background
 
-The ADALM2000 is designed as a compact learning platform for electronics education and can emulate several common bench instruments through software.[web:31][page:1][page:2] According to Analog Devices documentation, the platform includes a two-channel oscilloscope with differential inputs, a two-channel arbitrary waveform generator, and a voltmeter capable of AC and DC measurements.[page:1][page:2]
+The ADALM2000 is designed as a compact learning platform for electronics education and can emulate several common bench instruments through software [1][2]. The official ADALM2000 and Scopy documentation describe features that include a two-channel oscilloscope with differential inputs, a two-channel arbitrary waveform generator, and meter functions for voltage measurement [1][2].
 
 In this lab, four functions are highlighted:
 
-1. **Voltage source**: the fixed/programmable supply outputs provide positive and negative rails for simple circuits.[page:1][page:2]
-2. **Voltmeter**: used to measure DC or AC voltage; it also supports simple component-check workflows relevant to resistor verification.[page:1][page:2]
-3. **Waveform generator**: produces sine, square, triangle, and other signals for testing circuits.[page:1][page:2]
-4. **Oscilloscope**: displays voltage versus time so students can measure amplitude, period, frequency, and DC offset.[page:1][page:2]
+1. **Voltage source**: the programmable supplies provide positive and negative rails for simple circuits [1][2].
+2. **Voltmeter**: used to measure DC or AC voltage in basic circuits [1][2].
+3. **Waveform generator**: produces sine, square, triangle, and other signals for testing circuits [1][2].
+4. **Oscilloscope**: displays voltage versus time so students can measure amplitude, period, frequency, and DC offset [1][2].
 
 ## Safety and Good Practice
 
-- Keep all signal and supply voltages within the ADALM2000 limits stated in the software and official documentation.[page:1][page:2]
+- Keep all signal and supply voltages within the ADALM2000 limits stated in the software and official documentation [1][2].
 - Do not short the power supplies directly together or to ground.
 - Turn supply outputs off before rewiring a circuit.
 - Start with low waveform amplitudes, such as 1 V peak-to-peak or less, before increasing signal levels.
 - Verify that ground/reference connections are correct before enabling outputs.
-- Follow ESD precautions because the ADALM2000 contains ESD-sensitive devices.[page:1]
+- Follow ESD precautions because the ADALM2000 contains ESD-sensitive devices [1].
 
 ## Pre-Lab Setup
 
-Before class, ensure that the ADALM2000 drivers and Scopy are installed and that the device can be detected by the host computer.[web:33][page:1] After connecting the unit over USB, open Scopy and confirm that the ADALM2000 appears on the home screen before beginning the measurements.[web:32][web:33]
+Before class, ensure that the ADALM2000 drivers and Scopy are installed and that the device can be detected by the host computer [1][3]. After connecting the unit over USB, open Scopy and confirm that the ADALM2000 appears on the home screen before beginning the measurements [2][3].
 
 ## Hardware Orientation
 
 Ask students to identify the following before starting:
 
 - USB connection to the computer.
-- Oscilloscope input channels, typically 1+ / 1- and 2+ / 2-.
-- Waveform generator outputs W1 and W2.
-- Power supply outputs, usually labeled for positive and negative rails.
+- Oscilloscope input channels, typically 1+ / 1- and 2+ / 2- [2].
+- Waveform generator outputs W1 and W2 [2].
+- Power supply outputs, usually labeled for positive and negative rails [1][2].
 - Ground/reference points used for measurement return.
 
-Instructor note: spend a few minutes explaining that the ADALM2000 is software-defined, so the physical hardware becomes different virtual instruments depending on the Scopy tool selected.[page:1][page:2]
+Instructor note: explain that the ADALM2000 is software-defined, so the same hardware supports different virtual instruments depending on the Scopy tool selected [1][2].
 
 ## Procedure
 
 ### Activity 1: Voltage Source and DC Measurement
 
-In this activity, students use the ADALM2000 power supply as a simple DC voltage source and verify the output with the voltmeter.[page:1][page:2]
+In this activity, students use the ADALM2000 power supply as a simple DC voltage source and verify the output with the voltmeter [1][2].
 
 #### Connections
 
@@ -95,17 +96,17 @@ Build the following simple circuit on a breadboard:
 
 #### Steps
 
-1. Open the power supply tool in Scopy.[page:1]
-2. Set the positive supply to +3.0 V and leave the negative supply disabled.[page:1][page:2]
+1. Open the power supply tool in Scopy [2].
+2. Set the positive supply to +3.0 V and leave the negative supply disabled [1][2].
 3. Enable the positive supply.
-4. Open the voltmeter tool.
+4. Open the voltmeter tool [2].
 5. Measure the supply voltage across the resistor.
 6. Record the measured value.
 7. Change the supply to +1.0 V and then +4.0 V, measuring each time.
 
 #### Observations
 
-Students should observe that the measured DC voltage is close to the supply setting, with small deviations possible because of tolerance and measurement uncertainty. This demonstrates that the ADALM2000 can provide a controlled DC excitation and simultaneously verify the result using another instrument window in Scopy.[page:1][page:2]
+Students should observe that the measured DC voltage is close to the supply setting, with small deviations possible because of tolerance and measurement uncertainty. This demonstrates that the ADALM2000 can provide a controlled DC excitation and simultaneously verify the result using another instrument window in Scopy [1][2].
 
 #### Table to Complete
 
@@ -123,7 +124,7 @@ Students should observe that the measured DC voltage is close to the supply sett
 
 ### Activity 2: Voltmeter and Resistance Check
 
-This activity introduces the voltmeter as a basic measurement tool and uses it in a simple resistor-identification exercise. The ADALM2000 documentation highlights the voltmeter capability, and this exercise helps students relate physical resistor values to measured electrical quantities.[page:1][page:2]
+This activity introduces the voltmeter as a basic measurement tool and uses it in a simple resistor-identification exercise. The ADALM2000 documentation highlights the meter capability, while a starter lab from the University of Maryland provides a useful model for introductory ADALM2000 orientation and setup [2][3].
 
 #### Part A: Measure DC Voltage at a Divider Node
 
@@ -146,7 +147,7 @@ For two equal resistors in series, the midpoint should be approximately half the
 
 #### Part B: Resistance Check with Power Off
 
-Use the resistor color code and a handheld DMM if available, or ask students to infer resistance from voltage-divider behavior if a direct resistance mode is not used in the Scopy workflow. This part reinforces the idea that resistance should be checked only on an unpowered circuit.
+Use a handheld DMM for direct resistance measurement if available, or ask students to infer resistor value from labeled components or voltage-divider behavior if the lab setup does not use a dedicated ADALM2000 resistance mode [2][3]. This part reinforces the idea that resistance should be checked only on an unpowered circuit.
 
 ##### Steps
 
@@ -172,7 +173,7 @@ Use the resistor color code and a handheld DMM if available, or ask students to 
 
 ### Activity 3: Waveform Generator
 
-This activity introduces the arbitrary waveform generator, one of the core ADALM2000 tools available through Scopy.[page:1][page:2]
+This activity introduces the arbitrary waveform generator, one of the core ADALM2000 tools available through Scopy [1][2].
 
 #### Connections
 
@@ -181,18 +182,18 @@ This activity introduces the arbitrary waveform generator, one of the core ADALM
 
 #### Steps
 
-1. Open the waveform generator in Scopy.[page:1]
+1. Open the waveform generator in Scopy [2].
 2. Select channel W1.
 3. Configure a sine wave with frequency 1 kHz, amplitude 1 V peak-to-peak, and 0 V offset.
 4. Enable the output.
 5. Observe the signal first on the oscilloscope preview if available, then in the oscilloscope tool.
-6. Change the waveform to square wave, keeping frequency at 1 kHz.
+6. Change the waveform to a square wave, keeping frequency at 1 kHz.
 7. Change the frequency to 5 kHz.
 8. Change the DC offset to +0.5 V and note the effect.
 
 #### Observations
 
-Students should see that waveform shape, frequency, amplitude, and offset can be adjusted independently in software. They should also note that a DC offset shifts the entire waveform upward or downward without changing the basic shape.[page:1][page:2]
+Students should see that waveform shape, frequency, amplitude, and offset can be adjusted independently in software. They should also note that a DC offset shifts the entire waveform upward or downward without changing the basic shape [1][2].
 
 #### Table to Complete
 
@@ -210,11 +211,11 @@ Students should see that waveform shape, frequency, amplitude, and offset can be
 
 ### Activity 4: Oscilloscope
 
-This activity focuses on basic oscilloscope operation using the waveform produced in Activity 3. The ADALM2000 provides a two-channel oscilloscope with differential inputs, allowing students to examine time-varying voltages directly in Scopy.[page:1][page:2]
+This activity focuses on basic oscilloscope operation using the waveform produced in Activity 3. The ADALM2000 provides a two-channel oscilloscope with differential inputs, allowing students to examine time-varying voltages directly in Scopy [1][2].
 
 #### Steps
 
-1. Open the oscilloscope tool in Scopy.[page:1]
+1. Open the oscilloscope tool in Scopy [2].
 2. Display channel 1.
 3. Adjust volts/div and time/div until the waveform is clearly visible.
 4. Use the measurement or cursor tools to estimate peak-to-peak voltage.
@@ -251,7 +252,7 @@ Example: if \(T = 1\,\text{ms}\), then the frequency is 1 kHz.
 
 ## Suggested Instructor Demonstration
 
-A short live demonstration at the start helps students move faster through the lab. Demonstrate how to connect the ADALM2000, open Scopy, enable a low-voltage waveform, and route W1 directly into oscilloscope channel 1 before students begin independent work.[page:1][web:34]
+A short live demonstration at the start helps students move faster through the lab. Demonstrate how to connect the ADALM2000, open Scopy, enable a low-voltage waveform, and route W1 directly into oscilloscope channel 1 before students begin independent work [2][4].
 
 ## Deliverables
 
@@ -274,7 +275,7 @@ Each student group should submit:
 
 ## Common Issues
 
-- Device not detected: reconnect USB, confirm drivers, and restart Scopy.[web:33][web:32]
+- Device not detected: reconnect USB, confirm drivers, and restart Scopy [2][3].
 - No waveform visible: check that the generator output is enabled and the oscilloscope wiring is correct.
 - Unstable display: adjust trigger level and time base.
 - Incorrect DC measurement: confirm that the reference/ground node is connected properly.
@@ -282,7 +283,7 @@ Each student group should submit:
 
 ## Post-Lab Reflection
 
-Students should be able to explain how one compact USB instrument can replace several separate bench tools for introductory experiments.[web:31][page:1][page:2] They should also recognize that the waveform generator and oscilloscope are most powerful when used together, because one creates a known excitation while the other verifies the real signal present in the circuit.[page:1][page:2]
+Students should be able to explain how one compact USB instrument can replace several separate bench tools for introductory experiments [1][2]. They should also recognize that the waveform generator and oscilloscope are most powerful when used together, because one creates a known excitation while the other verifies the real signal present in the circuit [1][2].
 
 ## Extension Ideas
 
@@ -293,3 +294,12 @@ For a follow-up lab, consider adding one of the following:
 - Frequency response of a simple RC low-pass filter.
 - Comparison of sine, square, and triangle wave spectra.
 
+## Sources
+
+[1] Analog Devices, "ADALM2000 Evaluation Board." Available at: <https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm2000.html>
+
+[2] Analog Devices, "ADALM2000 — Scopy documentation." Available at: <https://analogdevicesinc.github.io/scopy/plugins/m2k/index.html>
+
+[3] University of Maryland, "Lab 0 - Getting Started with the ADALM2000." Available at: <https://user.eng.umd.edu/~lawson/Lab%200%20-%20Getting%20Started%20with%20the%20ADALM2000.pdf>
+
+[4] University of Illinois Urbana-Champaign, "ADALM2000 (M2k) Tutorial." Available at: <https://courses.grainger.illinois.edu/ece110/content/labs/Experiments/Tool_M2k_tutorial.pdf>
