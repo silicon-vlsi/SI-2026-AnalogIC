@@ -4,17 +4,17 @@
   - 1st Year Engineering and Math Courses.
  
 -  **COURSE OUTCOME**:
-   - Design of Analog ICs in the context of electronic system design
-   - Deriving IC specifications from the host electronic system.
+   - Design and modeling of analog circuit in the context of electronic system design
+   - Review of linear circuits eg. time- and frequency-domain 
+   - Deriving specifications from the host electronic system.
+   - Lab experiments confirming analysis.
    - A good understanding of CMOS devices & technology.
-   - Proficiency in analog circuit design and analysis.
-   - Mastery of design tools: ngspice, xscheme, magic & Python.
+   - Mastery of design tools: ngspice, xscheme, magic.
 
 - **COURSE DETAILS**
   - **Introduction to an electronic system design, a plug-n-play USB-MIDI microphone.**
     - Microphone pre-amplifier and interface circuit design.
     - Select an widely available Op-Amp for the preamplifier e.g. TI OPA 344
-    - Derive the important specs for the CMOS Op-Amp design.
   - **Introduction to linear circuits and passive devices**
     - Understanding passive devices (RLC) using basic EM principles.
     - Principle of linearity and superposition
@@ -38,6 +38,5 @@
     - Layout and final verification will be done using _magic_ and _netgen_.
   - **Design, test and characterization of a USB-MIDI microphone.**
     - System design and simulation using  with ngspice (or. LTSpice).
-    - PCB design with Eagle.
     - Reference schematic & PCB will be provided to expedite it.
     - Test & characterization using Python libraries numpy, scipy and matplotlib.
