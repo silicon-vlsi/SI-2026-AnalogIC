@@ -26,6 +26,7 @@
 **LAB EXERCISES**
 
 - [Lab1: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md)
+- [Lab2: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
 
 ## Resources
 
