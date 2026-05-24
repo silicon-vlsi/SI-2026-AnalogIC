@@ -23,6 +23,10 @@
   - 🔗 [Follow this quick start guide](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/) to get familiar with **Linux Command Line**
   - **nano** is a good text editor for begineers. 
 
+**LAB EXERCISES**
+
+- [Lab1: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md)
+
 ## Resources
 
 - **TEXTS**:
