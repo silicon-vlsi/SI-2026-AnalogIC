@@ -91,6 +91,7 @@
   - [Datasheet: OPA344](https://www.ti.com/lit/ds/symlink/opa345.pdf?ts=1748277734116&ref_url=https%253A%252F%252Fwww.google.com%252F)
   - [Schematic: Sparkfun breakout board](https://cdn.sparkfun.com/assets/7/5/6/e/d/SparkFun_Analog_MEMS_Microphone_Breakout_SPH8878LR5H-1.pdf)
 - **QUICKREFS**
+  - [Quick Start Guide for Linux Command Line](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/)
   - [Cheatsheet Linux](content/cheatsheet_linux.md)
   - [Cheatsheet ngspice](content/cheatsheet_ngspice.md)
   - [Cheatsheet Xschem](content/cheatsheet_xschem.md)
