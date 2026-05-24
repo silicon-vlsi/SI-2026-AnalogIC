@@ -80,8 +80,13 @@
       - :arrow_forward: [Tutorial: Analog Layout of an OpAmp](https://youtu.be/XvBpqKwzrFY?si=AyL0Wr3V4gb954yx) by Tim Edwards. (~1hr 30min)
       - :arrow_forward: Magic Tutorials by Carsten Wulff [ [Tutorial-1](https://www.youtube.com/watch?v=ORw5OaY33A4&t=9s)|[Tutorial-2](https://www.youtube.com/watch?v=NUahmUtY814)|[Tutorial-3](https://www.youtube.com/watch?v=OKWM1D0_fPI) ]
 
-- **LAB RESOURCE**
-  - :arrow_forward: [ADLAM 2000 Video Series](https://www.youtube.com/watch?v=LCf-_iREESQ&list=PLE6soOeVPOJ0Pj5sMui4KPDiTa7HY50y3)
+- **LAB RESOURCES**
+  - [ADALM 2000 Wiki](https://wiki.analog.com/m2k)
+    - [ADALM 2000 Qucik Start: Install Drivers](https://wiki.analog.com/university/tools/m2k/users/quick_start)
+    - [Install the GUI interface Scopy](https://wiki.analog.com/university/tools/m2k/scopy)
+    - :arrow_forward: [ADLAM 2000 Video Series](https://www.youtube.com/watch?v=LCf-_iREESQ&list=PLE6soOeVPOJ0Pj5sMui4KPDiTa7HY50y3)
+  - [Analog Devices Engineering Ubiversity Program](https://wiki.analog.com/university): Lots of great material including Labs, exercised and material related to ADALM M2K
+  - 
  
 
 - **USEFUL DOCS**
@@ -90,6 +95,7 @@
   - [Datasheet: OPA344](https://www.ti.com/lit/ds/symlink/opa345.pdf?ts=1748277734116&ref_url=https%253A%252F%252Fwww.google.com%252F)
   - [Schematic: Sparkfun breakout board](https://cdn.sparkfun.com/assets/7/5/6/e/d/SparkFun_Analog_MEMS_Microphone_Breakout_SPH8878LR5H-1.pdf)
 - **QUICKREFS**
+  - [Quick Start Guide for Linux Command Line](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/)
   - [Cheatsheet Linux](content/cheatsheet_linux.md)
   - [Cheatsheet ngspice](content/cheatsheet_ngspice.md)
   - [Cheatsheet Xschem](content/cheatsheet_xschem.md)
