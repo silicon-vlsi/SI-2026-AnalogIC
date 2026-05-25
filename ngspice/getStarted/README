@@ -1,0 +1,7 @@
+This folder has set of SPICE netlist to get you started with ngspice.
+This is a suggested order based on difficulty:
+
+1. res-div.sp
+2. id-vgs.sp
+3. level-1-vs-49.sp
+4. test-subckt.sp
