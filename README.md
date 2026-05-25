@@ -26,7 +26,7 @@
 **LAB EXERCISES**
 
 - Lab0: Linux, nano/vim, git
-  - [Getting Started with Linux](content/lab0-getStarted-linux-cli.md) [Link to source page](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/)
+  - [[Getting Started with Linux](content/lab0-getStarted-linux-cli.md)] [[Link to source page](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/)]
   - [Getting started with GitHub](lab0-getStarted-github.md)
 - [Lab1: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md)
 - [Lab2: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
