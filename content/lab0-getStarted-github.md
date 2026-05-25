@@ -1,4 +1,3 @@
-``` markdown
 # GitHub Lab – Web-Only Beginner Workflow
 
 This lab is for absolute first-time GitHub users.  
@@ -60,7 +59,7 @@ You will now make your first change using the built-in editor.
 2. In the top-right area of the file view, click the **pencil icon** to edit the file. [web:37]
 3. In the text box, add a few lines, for example:
 
-   ```text
+```text
    ## About this repository
 
    This is my first GitHub repository created using only the web interface.
