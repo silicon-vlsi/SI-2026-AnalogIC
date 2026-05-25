@@ -1,211 +1,289 @@
-``` markdown
-# GitHub Lab – Web-Only Beginner Workflow
+# GitHub Beginner Tutorial (Web + Linux)
 
-This lab is for absolute first-time GitHub users.  
-Everything is done **in the browser**. You will **not** use `git` or the command line.
+This tutorial aimed at first-time GitHub users using the **website**, with a small section at the end for **Linux `git clone` and `git pull`**.
 
-By the end of this lab, you will be able to:
+***
 
-- Create a GitHub account  
-- Create a repository  
-- Create and edit files using the GitHub web editor  
-- Upload files from your computer using the web interface  
-- View the commit history of your changes  
+# Create a GitHub account
 
-> Estimated time: 30–40 minutes  
-> Requirements: A web browser and an email address
+1. Open a browser and go to [https://github.com](https://github.com).[^1]
+2. Click **Sign up** (usually in the top-right).[^1]
+3. Enter:
+    - Email address
+    - Password
+    - Username (this becomes part of your profile URL)
+4. Solve the puzzle / CAPTCHA and click **Create account**.[^2]
+5. GitHub will send a code to your email; enter that code to verify.[^3]
+6. Choose the **Free** plan when asked.[^3]
 
----
+After this, you have a GitHub account and a profile page.[^4]
 
-## 1. Create your GitHub account
+***
 
-1. Open your browser and go to:  
-   https://github.com/  [web:27]
-2. Click **Sign up** in the top-right corner. [web:16][web:18]
-3. Follow the on-screen steps:
-   - Enter your email  
-   - Create a password  
-   - Choose a username  
-   - Decide if you want email updates  
-4. Solve the verification puzzle and click **Create account**. [web:16][web:26]
-5. Open your email inbox and click the verification link or enter the code sent by GitHub. [web:20]
-6. Once verified, you will be taken to your GitHub dashboard. [web:17]
+# Create your repo from the course template
 
-**Checkpoint:**  
-You should see your username in the top-right corner of the GitHub page.
+You have been given a template repository:
 
----
+[https://github.com/silicon-vlsi/si2026-analog-notebook/](https://github.com/silicon-vlsi/si2026-analog-notebook/)[^5]
 
-## 2. Create your first repository (web only)
+To create your own copy:
 
-1. Make sure you are logged in to GitHub.
-2. In the upper-right corner, click the **+** icon and choose **New repository**. [web:27]
-3. Fill in the form:
-   - **Repository name**: `web-only-lab` (or any simple name)
-   - **Description**: `My first GitHub repository using only the web interface`
-   - **Visibility**: select **Public**
-4. Turn on **Add a README** (toggle to **On**). This creates a `README.md` file automatically. [web:27]
-5. Click **Create repository**. [web:27]
+1. Make sure you are logged in to GitHub.[^4]
+2. Open the template link in your browser.
+3. On the main page of that repo, look for a green button **Use this template** near the top-right.[^6][^7]
+4. Click **Use this template → Create a new repository**.[^7][^6]
+5. Fill the form:
+    - **Owner**: choose your username.
+    - **Repository name**: for example `si2026-analog-notebook-yourname`.
+    - Keep visibility as **Public** unless your instructor says otherwise.
+6. Click **Create repository from template**.[^6][^7]
 
-**Checkpoint:**  
-You should now see a page with your new repository and a file list containing at least `README.md`.
+You now have your **own** repository, with the same structure and starter files as the template.[^7]
 
----
+***
 
-## 3. Edit a file directly on GitHub
+# Working with files on the GitHub website
 
-You will now make your first change using the built-in editor.
+All of this section uses only the **browser**, no command line.
 
-1. In your repository, click on `README.md`. [web:37]
-2. In the top-right area of the file view, click the **pencil icon** to edit the file. [web:37]
-3. In the text box, add a few lines, for example:
+## Open your repository
 
-   ```text
-   ## About this repository
+1. Click your profile picture (top-right) → **Your repositories**.[^4]
+2. Click the repo you just created.
 
-   This is my first GitHub repository created using only the web interface.
+You will see a file list (for example, `README.md`, folders, etc.).
+
+***
+
+## Create (add) a new file in a folder
+
+1. Navigate to the folder where you want the file (or stay at root).
+2. Click the **Add file** button above the file list.
+3. Choose **Create new file**.
+4. Enter a file name, for example `notes/week1.md`.
+5. In the big text area, type some content (plain text or markdown).
+6. Scroll down to the **Commit changes** section:
+    - **Commit message**: short description, e.g. `Add week 1 notes`.
+    - Keep **Commit directly to the main branch** selected for now.
+7. Click **Commit changes**.
+
+GitHub saves the new file in the repository history.[^8]
+
+***
+
+## Upload an existing file from your computer
+
+1. In your repo, click **Add file → Upload files**.
+2. Drag-and-drop one or more files, or click to browse.
+3. Add a commit message, e.g. `Upload simulation results`.
+4. Click **Commit changes**.[^8]
+
+***
+
+## Edit (modify) an existing file
+
+1. Open the file by clicking its name in the file list.
+2. Click the pencil icon (**Edit this file**) at the top right of the file’s content.
+3. Make your changes in the editor.
+4. Scroll to **Commit changes**, write a meaningful commit message, e.g. `Fix typo in lab notes`.
+5. Click **Commit changes**.[^8]
+
+***
+
+## Rename or move a file
+
+1. Open the file.
+2. Click the pencil (**Edit this file**).
+3. At the top, where the filename is shown, change the name or add a folder path:
+    - Example: change `notes.md` to `week1/notes.md` to **move** it into a `week1` folder.
+4. Commit the change as usual.
+
+Git treats rename/move as changes recorded in history.[^8]
+
+***
+
+## Delete a file
+
+1. Open the file.
+2. Click the trash can icon (**Delete this file**) at the top right.
+3. Scroll to **Commit changes**, write a message, e.g. `Remove old diagram`.
+4. Click **Commit changes**.[^8]
+
+The file disappears from the current view but still exists in history.
+
+***
+
+# Quick intro to Markdown
+
+Markdown is a simple text format that GitHub turns into nicely formatted HTML, especially in `.md` files like `README.md`.[^9]
+
+## Basic syntax
+
+- **Headings**
+
+```markdown
+# Heading 1
+## Heading 2
+### Heading 3
 ```
 
-4. (Optional) Click **Preview** to see how it looks. [web:37]
-5. Scroll down to the **Commit changes** section.
-6. In the **Commit message** box, write a short description, e.g., `Add description to README`. [web:37]
-7. Ensure **Commit directly to the main branch** is selected.
-8. Click **Commit changes**. [web:37]
+- **Bold and italics**
 
-**Checkpoint:**
-After the page reloads, your new text should be visible in `README.md`, and you should see a new commit entry above the file list.
-
----
-
-## 4. Create a new file from the web
-
-Next, you will create a completely new file inside your repository.
-
-1. Go to the main page of your repository (where you see the file list). [web:34]
-2. Above the file list, click the **Add file** dropdown and select **Create new file**. [web:34]
-3. In the **File name** box, type:
-`notes/first-notes.txt`
-    - This will create a folder named `notes` and a file named `first-notes.txt`. [web:34]
-4. In the big text area, type some content, for example:
-
-```text
-This is my first notes file created directly on GitHub.
+```markdown
+**bold text**
+*italic text*
 ```
 
-5. (Optional) Click **Preview**.
-6. Scroll down to the **Commit changes** section.
-7. Enter a commit message like `Add first notes file`. [web:34]
-8. Make sure **Commit directly to the main branch** is selected.
-9. Click **Commit changes**. [web:34]
+- **Lists**
 
-**Checkpoint:**
-You should now see a `notes` folder in your file list, and inside it, a `first-notes.txt` file.
-
----
-
-## 5. Upload a file from your computer (web only)
-
-Now you will upload a file (for example, a text file or a small document) from your local machine using only the GitHub website.
-
-1. On your computer, create a simple text file (for example, `local-notes.txt`) and save it somewhere easy to find.
-2. In your browser, go to the main page of your repository.
-3. At the top of the file list, click the **Add file** dropdown and choose **Upload files**. [web:35]
-4. Either:
-    - Drag and drop your `local-notes.txt` file into the upload area, or
-    - Click **choose your files** and select `local-notes.txt`. [web:35][web:38]
-5. After the file is listed, scroll down to the **Commit changes** section.
-6. Write a commit message such as `Upload local-notes.txt`. [web:35][web:36]
-7. Confirm that **Commit directly to the main branch** is selected.
-8. Click **Commit changes**. [web:35]
-
-**Checkpoint:**
-Your file `local-notes.txt` should now appear in the repository file list.
-
----
-
-## 6. Edit and update an uploaded file
-
-You will now modify the file you just uploaded and save another version.
-
-1. In your repository, click on `local-notes.txt`.
-2. Click the **pencil icon** to edit the file. [web:37]
-3. Add a new line to the file, such as:
-
-```text
-This line was added using the GitHub web editor.
+```markdown
+- Item one
+- Item two
+  - Indented item (use 2 spaces before the dash)
 ```
 
-4. Scroll down to **Commit changes**.
-5. Use a clear commit message like `Update local-notes.txt`. [web:37]
-6. Click **Commit changes**.
+- **Numbered lists**
 
-**Checkpoint:**
-You should see the updated content in `local-notes.txt` and another commit in the history.
+```markdown
+1. First step
+2. Second step
+```
 
----
+- **Links**
 
-## 7. View your commit history
+```markdown
+[GitHub](https://github.com)
+```
 
-1. On the main repository page, click on the **Commits** link near the top (or on the number showing total commits).
-2. You will see a list of commits with messages such as:
-    - `Add description to README`
-    - `Add first notes file`
-    - `Upload local-notes.txt`
-    - `Update local-notes.txt` [web:27][web:32]
-3. Click any commit to view:
-    - Which files changed
-    - What was added or removed
+- **Images** (the image must be in the repo or reachable via URL)
 
-**Checkpoint:**
-Students should recognize that each commit represents a “snapshot” of changes with a clear message describing what was done.
-
----
-
-## 8. Recap – What you did using only the web
-
-Without using any command line tools, you have learned to:
-
-- Create a GitHub account
-- Create a new repository with a README
-- Edit existing files using the GitHub web editor
-- Create new files and even new folders in the browser
-- Upload files from your computer via the **Upload files** interface
-- Write commit messages and view commit history
-
-These are the essential skills needed to start using GitHub as a simple, cloud-based file and version manager. [web:32][web:34][web:35]
-
----
-
-## 9. Suggested mini-exercises
-
-If you want extra practice:
-
-1. Create another folder, e.g., `docs`, and add a new file `docs/summary.md` using **Create new file**.
-2. Upload a small image file (e.g., `diagram.png`) and observe how GitHub stores and shows it.
-3. Edit `README.md` again to add links to your new files.
-
----
-
-> Reflection question: If you were designing this for your students, which single action (creating a file, editing, or uploading) would you use as the **first hands-on task**, and why?
+```markdown
 
 ```
-<span style="display:none">[^1][^10][^11][^12][^13][^14][^15][^2][^3][^4][^5][^6][^7][^8][^9]</span>
+
+
+GitHub shows a **Preview** tab above the editor so you can check how the markdown will render before committing.[^9]
+
+***
+
+# Clone your repo on a Linux machine
+
+Although you will mostly work in the browser, sometimes you may want a local copy (for example, to run simulations or edit with VS Code).[^8]
+
+## Clone your GitHub repository
+
+1. In your browser, open **your** repo (not the template).
+2. Click the green **Code** button.[^9]
+3. Under **HTTPS**, copy the URL (looks like `https://github.com/your-username/your-repo.git`).[^9]
+4. On your Linux machine, open a terminal and go to the directory where you want the project:
+
+```bash
+cd ~/projects    # example
+```
+
+5. Run:
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+```
+
+Replace with your actual URL. This creates a new folder with your repo content.[^9][^8]
+6. Enter that folder:
+
+```bash
+cd your-repo
+```
+
+
+***
+
+## Keep your local copy up to date (`git pull`)
+
+Whenever you make changes on the **GitHub website** (new files, edits, deletes), update your local copy like this:
+
+1. In the terminal, go to your repo folder:
+
+```bash
+cd /path/to/your-repo
+```
+
+2. Run:
+
+```bash
+git pull origin main
+```
+
+    - `origin` is the default name of the remote on GitHub.
+    - `main` is the default branch name in modern GitHub repos.[^10][^11][^8]
+
+`git pull` fetches new commits from GitHub and merges them into your local branch, so your Linux copy matches what you see on the website.[^12][^8]
+
+***
+
+# Minimal daily workflow (for this course)
+
+Staying within the browser for most tasks:
+
+- Open your repo in GitHub.
+- For each lab/week:
+    - Create or edit markdown files for notes and answers.
+    - Upload any required simulation results or images.
+    - Use clear commit messages like `Add Week 2 lab answers`.
+- Occasionally, on your Linux machine:
+    - `git pull origin main` before running simulations or editing locally.[^10][^8]
+
+***
+
+To check your understanding: if you have just created a new markdown file on the GitHub website and later want those changes on your Linux machine, what are the exact terminal commands you would run starting from your home directory?
+<span style="display:none">[^13][^14][^15][^16][^17][^18][^19][^20][^21][^22][^23][^24]</span>
 
 <div align="center">⁂</div>
 
-[^1]: https://github.com/orgs/community/discussions/141724
-[^2]: https://docs.github.com/en/repositories/working-with-files/managing-files
-[^3]: https://www.youtube.com/watch?v=sD65M0V3YUs
-[^4]: https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files
-[^5]: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
-[^6]: https://ds-modules.github.io/curriculum-guide/workflow/pushing-to-github.html
-[^7]: https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories
-[^8]: https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files
-[^9]: https://stackoverflow.com/questions/10318403/uploading-new-files-to-a-git-repository-directly-through-the-github-web-applicat
-[^10]: https://docs.github.com/pages/quickstart
-[^11]: https://stackoverflow.com/questions/77645787/how-to-edit-repository-in-github
-[^12]: https://www.youtube.com/watch?v=pzxDVTz3CNM
-[^13]: https://www.youtube.com/watch?v=-RZ03WHqkaY
-[^14]: https://www.reddit.com/r/git/comments/16z29rr/new_to_git_how_to_edit_a_github_repo_locally/
-[^15]: https://www.youtube.com/watch?v=tlu5e0TxSzo```
+[^1]: https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github
+
+[^2]: https://www.wikihow.com/Create-an-Account-on-GitHub
+
+[^3]: https://learn.microsoft.com/en-us/visualstudio/version-control/git-create-github-account?view=visualstudio
+
+[^4]: https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account
+
+[^5]: https://github.com/silicon-vlsi
+
+[^6]: https://www.youtube.com/watch?v=QHH6hC9x5xA
+
+[^7]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository
+
+[^8]: https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository
+
+[^9]: https://docs.github.com/articles/cloning-a-repository
+
+[^10]: https://github.com/git-guides/git-pull
+
+[^11]: https://www.w3schools.com/git/git_pull_from_remote.asp?remote=github
+
+[^12]: https://docs.github.com/enterprise/2.6/user/articles/fetching-a-remote
+
+[^13]: https://github.com/signup
+
+[^14]: https://docs.github.com/en/enterprise-cloud@latest/get-started/start-your-journey/creating-an-account-on-github
+
+[^15]: https://docs.github.com/pt/get-started/start-your-journey/creating-an-account-on-github
+
+[^16]: https://github.com/silicon-vlsi/project2020
+
+[^17]: https://github.com/github/docs/blob/main/content/get-started/start-your-journey/creating-an-account-on-github.md
+
+[^18]: https://github.com/silicon-vlsi/project2020/blob/master/README.md
+
+[^19]: https://docs.github.com/de/get-started/onboarding/getting-started-with-your-github-account
+
+[^20]: https://github.com/silicon-vlsi/silicon-vlsi
+
+[^21]: https://docs.github.com/pt/get-started/onboarding/getting-started-with-your-github-account
+
+[^22]: https://www.youtube.com/watch?v=h5cKAd94QNo
+
+[^23]: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-git-clone-on-Ubuntu-with-GitLab-and-GitHub
+
+[^24]: https://www.youtube.com/watch?v=vrUleDpIdI8
 
