@@ -1,10 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# THis maybe little harder for first timers, can we do the tutorial restriciting to web page only. So all files are created on web page and anything from the local machine needs to be uploaded.
-
-Here is a simplified, web-only lab that you can drop directly into a GitHub repo as `WEB_ONLY_GITHUB_LAB.md` (or similar).
-
-```markdown
+``` markdown
 # GitHub Lab – Web-Only Beginner Workflow
 
 This lab is for absolute first-time GitHub users.  
