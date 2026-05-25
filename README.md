@@ -7,7 +7,7 @@
 - 📆 **DURATION**: May 25th till June 13th (3 weeks, Mon-Fri)
 - ⏲️ **TIMINGS**:
   - Session-1: 🕙 **10:00am - 1:00pm**
-  - Session-2: 🕝 **2:30pm - 5:30pm**
+  - Session-2: 🕝 **2:00pm - 5:00pm**
 - 🏛️ **VENUE**: VLSI Lab 
 - 👨‍🏫 **RESOURCE PERSONS**:
   - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
@@ -19,7 +19,7 @@
 - 🔗 [**Day-Wise Course Plan**](content/Day-Wise-Plan.md)
 - **CAD and IT Setup** (These need to be setup before 2nd June)
   - 🔗 [Follow this guide](content/cad-install-setup-wsl-ubuntu.md) to install **Ubuntu 24.04** on **Windows Subsytem for Linux (WSL)**
-    - ⏯️ [YouTube video](https://youtu.be/-qRGRr0xy_c): quick walk through the installation and setup of WSL, Ubuntu and EDA tools.
+    - ▶️ [YouTube video](https://youtu.be/-qRGRr0xy_c): quick walk through the installation and setup of WSL, Ubuntu and EDA tools.
   - 🔗 [Follow this quick start guide](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/) to get familiar with **Linux Command Line**
   - **nano** is a good text editor for begineers. 
 
