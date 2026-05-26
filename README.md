@@ -23,24 +23,25 @@
   - 🔗 [Follow this quick start guide](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/) to get familiar with **Linux Command Line**
   - **nano** is a good text editor for begineers. 
 
-**LAB EXERCISES**
+# LAB EXERCISES
 
-**EDA Exercises**
+## EDA Exercises
+
 - Lab0: Linux, nano/vim, git
   - [[Getting Started with Linux](content/lab0-getStarted-linux-cli.md)] [[Link to source page](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/)]
   - [Getting started with GitHub](content/lab0-getStarted-github.md)
 
-**ADALM Exercises**
+## ADALM Exercises
 - [Lab1: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md)
 - [Lab2: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
 
-**PROBLEMS/ASSIGNMENTS**
+# PROBLEMS/ASSIGNMENTS
 
 - [Electric Circuit Problems](content/assignment-Electrical-Circuits.pdf)
 - [RC Circuits](content/assignment-RC-Circuit.pdf)
 
 
-**DAILY ACTIVITIES**
+# DAILY LOG
 
 - **Day-1 (May 25, Mon)**:
   - :arrow_forward: [Course introduction](https://zoom.us/rec/share/OOBTsOISkuCPmlhbLhCYLFFPqYNNfJSXYKO9VQ62x1v5FaKe4dWXrz6dCp2GrkzF.0aFgevXVkF9kcaGj?startTime=1779686377000)
@@ -48,9 +49,11 @@
   - Getting started with Linux, git.
   - Basic circuit assesment quiz.
 
-## Resources
+# Resources
 
-- **TEXTS**:
+## TEXTS/REFERENCES
+
+- **TEXTS**
   - [**JohnsMartin**] T. C. Carusone, D. A. Johns, and K. A. Martin, Analog Integrated Circuit Design, 2nd ed. Wiley, 2012. [Online](https://www.box.com/s/38df9et7alvxdbu/JohnsMartinCarusone-AnalogICDesign-2ndEd-Wiley-2012.pdf?dl=0)
   - [**Uyemura**] Uyemura, John P. "*CMOS Logic Circuit Design*". Springer, 2007
   - [**Rout**], Saroj. 2025. IC Engineering I. [[eBook](https://mixignal-press.github.io/ebook-ice1/)]
@@ -61,7 +64,10 @@
   - [**Weste**] Weste, Neil, and David Harris. "*CMOS VLSI Design: A Circuits and Systems Perspective*". Pearson Education, 2011 
   - [**Baker**] Baker, R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
 
-- **EDA RESOURCES**
+# COMPUTING RESOURCES
+
+## EDA Resources
+
   - The following two videos are quick start guide to **xschem, ngspice**, and **Magic** (Note: it's based on GF180 PDK but shouldn't matter a lot)
     - :arrow_forward: [Video Tutorial Part-1][VideoXschemNgspice]: Design and Simulation using Xschem and ngspice
     - :arrow_forward: [Video Tutorial Part-2][VideoMagic]: Layout using Magic 
@@ -69,6 +75,8 @@
 
   - **IIC-OSIC-TOOLS**
     - [OSIC-TOOLS GitHub Page](https://github.com/iic-jku/iic-osic-tools) The docker container with all the EDA tools preloaded. 
+
+## End-to-End Design Flow
 
   - **End-to-End Design-to-Layout Flow**
     - [Open Source VLSI](https://github.com/stineje/gf180mcu-open-source-vlsi): A great detail set of deep tutorials from [James Stine](https://github.com/stineje) and team at OSU.
@@ -79,7 +87,9 @@
     - [Analog Circuit Design Flow](https://analogicus.com/rply_ex0_sky130nm/tutorial) by Carsten Wulff
     - [Open-Source Analog Design Flowing using EFabless and SKY130nm (PDF)](docs/Thater-OpenSource-AnalogDesgnFlow-Efabless-SKY130.pdf): Detail end-to-end design flow by by Joshua Thater.
 
-  
+
+## Xschem-ngspice
+
   - **xschem-ngspice**:
     - [Xschem Official Site][XSchem]
     - [ngspice Official Site][NGSpice]
@@ -91,6 +101,8 @@
     - :arrow_forward: Three part *tutorial videos* using xschem and ngspice with GF180MCU
       - [Part-1](https://youtu.be/MdywD87-DVg) | [Part-2](https://youtu.be/DLvZSsLAbho) | [Part-3](https://youtu.be/nBnR8Nm_B_I)
 
+## Magic
+
   - **Magic**
 
     - [Magic][Magic]: The official site of Magic at opencircuitdesign.com maintained by Tim Edwards. This site has everything you need: source-code/manuals/tutorials/etc
@@ -101,6 +113,8 @@
       - :arrow_forward: [Tutorial: Analog Layout of an OpAmp](https://youtu.be/XvBpqKwzrFY?si=AyL0Wr3V4gb954yx) by Tim Edwards. (~1hr 30min)
       - :arrow_forward: Magic Tutorials by Carsten Wulff [ [Tutorial-1](https://www.youtube.com/watch?v=ORw5OaY33A4&t=9s)|[Tutorial-2](https://www.youtube.com/watch?v=NUahmUtY814)|[Tutorial-3](https://www.youtube.com/watch?v=OKWM1D0_fPI) ]
 
+# LAB Resources
+
 - **LAB RESOURCES**
   - [ADALM 2000 Wiki](https://wiki.analog.com/m2k)
     - [ADALM 2000 Qucik Start: Install Drivers](https://wiki.analog.com/university/tools/m2k/users/quick_start)
@@ -109,6 +123,7 @@
   - [Analog Devices Engineering Ubiversity Program](https://wiki.analog.com/university): Lots of great material including Labs, exercised and material related to ADALM M2K
   - 
  
+# Useful Links, Quickrefs, etc
 
 - **USEFUL DOCS**
   - [Skywater PDK and DRC Manual](docs/skywater-pdk-readthedocs-io-en-main.pdf)
