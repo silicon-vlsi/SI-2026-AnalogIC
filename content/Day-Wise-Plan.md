@@ -13,7 +13,9 @@
   - Introduction to _Xschem_ schematic editor and _ngspice_ simulator.
 - **Day 3** (27 May)
   - Frequency response of linear circuits.
+  - OpAmp circuit analysis.
   - Model and simulate linear systems in xschem-ngspice
+  - Model single-pole OpAmps
 - **Day-4-5** (28-29 May)
   - Model and implement the AFE on Xschem and simulate on ngspice.
     - Modeling the microphone as a Thevenin's equivalent.
