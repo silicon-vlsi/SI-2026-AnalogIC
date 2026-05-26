@@ -34,6 +34,8 @@
 ## ADALM Exercises
 - [Lab1: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md)
 - [Lab2: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
+- [Lab3: RC transient response](https://wiki.analog.com/university/courses/electronics/rc_transient_response) (From ADALM univ course page)
+- [Lab4: Low-Pass Filter Bode Plot](https://wiki.analog.com/university/courses/electronics/lp_hp_filters)
 
 # PROBLEMS/ASSIGNMENTS
 
