@@ -10,7 +10,10 @@ Here is an unsorted list of useful ngspice settings and command:
 - `echo` can be used to display text, `$variable` or `$&vector`, can be useful for debugging
 - `let name = expr` to create a new vector; `unlet vector` deletes a specified vector; access vector data with `$&vec`
 - `linearize vec` linearizes a vector on an equidistant time scale, do this before an FFT; with `set specwindow=windowtype` a proper windowing function can be set
-- `meas` can be used for various evaluations of measurement results (see ngspice manual for details)
+- `meas` can be used for various evaluations of measurement results (see [11.4 ngspice manual](https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec__MEAS) for details)
+  - Rise time: `.MEASURE TRAN tr1090 TRIG v(vout) VAL='0.1*PAR_VDD' RISE=1 TARG v(vout) VAL='0.9*PAR_VDD' RISE=1`
+  - Fall delay: `.MEASURE TRAN tdfall TRIG v(vin)  VAL='0.5*PAR_VDD' RISE=1 TARG v(vout) VAL='0.5*PAR_VDD' FALL=1`
+  - Avg current: `.MEASURE TRAN iavg AVG vsup#branch FROM=PAR_DEL TO='PAR_DEL+PAR_PER'`
 - `noise v(output <ref>) src (dec|lin) pts fstart fstop` runs a small-signal noise analysis
 - `op` calculates the operating point, useful for checking bias points and device parameters
 - `plot expr vs scale` to plot something
