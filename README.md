@@ -25,11 +25,28 @@
 
 **LAB EXERCISES**
 
+**EDA Exercises**
 - Lab0: Linux, nano/vim, git
   - [[Getting Started with Linux](content/lab0-getStarted-linux-cli.md)] [[Link to source page](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/)]
   - [Getting started with GitHub](content/lab0-getStarted-github.md)
+
+**ADALM Exercises**
 - [Lab1: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md)
 - [Lab2: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
+
+**PROBLEMS/ASSIGNMENTS**
+
+- [Electric Circuit Problems](content/assignment-Electrical-Circuits.pdf)
+- [RC Circuits](content/assignment-RC-Circuit.pdf)
+
+
+**DAILY ACTIVITIES**
+
+- **Day-1 (May 25, Mon)**:
+  - :arrow_froward: [Course introduction](https://zoom.us/rec/share/OOBTsOISkuCPmlhbLhCYLFFPqYNNfJSXYKO9VQ62x1v5FaKe4dWXrz6dCp2GrkzF.0aFgevXVkF9kcaGj?startTime=1779686377000)
+  - [USB Mic System Description](content/lec-usb-mic-system.md)
+  - Getting started with Linux, git.
+  - Basic circuit assesment quiz.
 
 ## Resources
 
