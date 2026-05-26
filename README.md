@@ -83,7 +83,7 @@
   - **xschem-ngspice**:
     - [Xschem Official Site][XSchem]
     - [ngspice Official Site][NGSpice]
-    - [ngspice Manual][NGSpiceMan]
+    - [ngspice Manual][NGSpiceMan] [[PDF](https://ngspice.sourceforge.io/docs/ngspice-manual.pdf)]
     - [Analog (Integrated) Circuit Design](https://iic-jku.github.io/analog-circuit-design/aicd.html): An excellent analog course from Dr. Harald Pretl from Johannes Kepler University. The course uses xschem, ngspice and IHPSG13G2 for all exercises. 
     - [Tutorial: Run a simulation with xschem](https://xschem.sourceforge.io/stefan/xschem_man/tutorial_run_simulation.html): a quick step-by-step html guide from the creator Stefan Schippers.
     - [xschem displaying simulation waveform](https://www.youtube.com/watch?v=bP9w3zm1qv4): a 10min video on embedded graphs by Stephan Schippers.  
