@@ -43,7 +43,7 @@
 **DAILY ACTIVITIES**
 
 - **Day-1 (May 25, Mon)**:
-  - :arrow_froward: [Course introduction](https://zoom.us/rec/share/OOBTsOISkuCPmlhbLhCYLFFPqYNNfJSXYKO9VQ62x1v5FaKe4dWXrz6dCp2GrkzF.0aFgevXVkF9kcaGj?startTime=1779686377000)
+  - :arrow_forward: [Course introduction](https://zoom.us/rec/share/OOBTsOISkuCPmlhbLhCYLFFPqYNNfJSXYKO9VQ62x1v5FaKe4dWXrz6dCp2GrkzF.0aFgevXVkF9kcaGj?startTime=1779686377000)
   - [USB Mic System Description](content/lec-usb-mic-system.md)
   - Getting started with Linux, git.
   - Basic circuit assesment quiz.
