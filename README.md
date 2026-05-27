@@ -50,6 +50,14 @@
   - [USB Mic System Description](content/lec-usb-mic-system.md)
   - Getting started with Linux, git.
   - Basic circuit assesment quiz.
+- **Day-2 (May 26, Tue)**:
+  - Linear Circuits: Superposition, KCL, KVL, Node, Mesh, Thevnin, Norton and Max power transfer.
+  - Ngspice-xschem Lab: voltage divider, Id-Vgs Level-1 MOS characteristic.
+- **Day-3 (May 27, Wed)**:
+  - RC Circuit transient analysis and problems.
+  - Active OpAmp circuits.
+  - ngspice Lab simulating RC circuits
+    - Step response of RC and CR circuits and response for a pulse train when *RC >> tau*
 
 # Resources
 
