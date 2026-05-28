@@ -171,13 +171,13 @@
 
 ***
 
-[JohnsMartin]:  https://www.dropbox.com/scl/fi/7jp5q4e3kvalnlbui7p5m/JohnsMartinCarusone-AnalogICDesign-2ndEd-Wiley-2012.pdf?rlkey=exl7b2bmfgoiqyku6f0qeyk7a&dl=0 
-[Uyemura]:  https://www.dropbox.com/scl/fi/rblfckfj6b2bds655ljw7/Uyemura-CMOS-LogicCircuitDesign-1999-Springer.pdf?rlkey=n18cw2raqi95rsoxb3gr478oj&dl=0 
-[Thomas]:   https://www.dropbox.com/scl/fi/83ygnyynx2sfex1h7tdhg/Thomas-AnalysisDesignOfLinearCkts-Wiley-2023.pdf?rlkey=4xzk0an1z7r3fcj936o0enjg4&dl=0 
-[Hodges]:   https://www.dropbox.com/scl/fi/43orxdtdm6u4u5mq68mc2/HodgesJackson-DesignAndAnalysisOfDigitalIC-3Ed-McGraw-2005.pdf?rlkey=1awl7pw48611qd8cnru6az7x5&dl=0 
-[Weste]:    https://www.dropbox.com/scl/fi/8i5pftaeux4x2kzj51cpr/Weste-Harris-CMOS-VLSI-design-Pearson-4thEd-2011.pdf?rlkey=g1efbminflmhqze5o2pc9rnl8&dl=0 
-[Baker]:    https://www.dropbox.com/scl/fi/h3nlnwc1wxho6e6naspiz/Baker-CMOScircuitDesignLayoutSimulation-3rdEd-2010.pdf?rlkey=85voahejqfzixpi317s08lkf4&dl=0 
-[Gray]:     https://www.dropbox.com/scl/fi/7l25x1ya6hfdz6c7anhza/Gray-Searle-ElectronicPrinciples-PhysicsModelsCircuits-Wiley-1969.pdf?rlkey=31fylmvffmchuteat87haymoj&dl=0 
+[JohnsMartin]:  https://www.box.com/scl/fi/7jp5q4e3kvalnlbui7p5m/JohnsMartinCarusone-AnalogICDesign-2ndEd-Wiley-2012.pdf?rlkey=exl7b2bmfgoiqyku6f0qeyk7a&dl=0 
+[Uyemura]:  https://www.box.com/scl/fi/rblfckfj6b2bds655ljw7/Uyemura-CMOS-LogicCircuitDesign-1999-Springer.pdf?rlkey=n18cw2raqi95rsoxb3gr478oj&dl=0 
+[Thomas]:   https://www.box.com/scl/fi/83ygnyynx2sfex1h7tdhg/Thomas-AnalysisDesignOfLinearCkts-Wiley-2023.pdf?rlkey=4xzk0an1z7r3fcj936o0enjg4&dl=0 
+[Hodges]:   https://www.box.com/scl/fi/43orxdtdm6u4u5mq68mc2/HodgesJackson-DesignAndAnalysisOfDigitalIC-3Ed-McGraw-2005.pdf?rlkey=1awl7pw48611qd8cnru6az7x5&dl=0 
+[Weste]:    https://www.box.com/scl/fi/8i5pftaeux4x2kzj51cpr/Weste-Harris-CMOS-VLSI-design-Pearson-4thEd-2011.pdf?rlkey=g1efbminflmhqze5o2pc9rnl8&dl=0 
+[Baker]:    https://www.box.com/scl/fi/h3nlnwc1wxho6e6naspiz/Baker-CMOScircuitDesignLayoutSimulation-3rdEd-2010.pdf?rlkey=85voahejqfzixpi317s08lkf4&dl=0 
+[Gray]:     https://www.box.com/scl/fi/7l25x1ya6hfdz6c7anhza/Gray-Searle-ElectronicPrinciples-PhysicsModelsCircuits-Wiley-1969.pdf?rlkey=31fylmvffmchuteat87haymoj&dl=0 
    
 [NGSpice]:              http://ngspice.sourceforge.net
 [NGSpiceMan]:           http://ngspice.sourceforge.net/docs/ngspice-html-manual/manual.xhtml
