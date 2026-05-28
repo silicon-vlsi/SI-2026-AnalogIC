@@ -70,6 +70,8 @@ Before class, ensure that the ADALM2000 drivers and Scopy are installed and that
 
 ## Hardware Orientation
 
+[HARDWARE ORIENTATION](https://wiki.analog.com/university/tools/m2k/devs/intro) : See the **Block Diagram** and **PINOUT** from this intro page.
+
 Ask students to identify the following before starting:
 
 - USB connection to the computer.
