@@ -50,6 +50,14 @@
   - [USB Mic System Description](content/lec-usb-mic-system.md)
   - Getting started with Linux, git.
   - Basic circuit assesment quiz.
+- **Day-2 (May 26, Tue)**:
+  - Linear Circuits: Superposition, KCL, KVL, Node, Mesh, Thevnin, Norton and Max power transfer.
+  - Ngspice-xschem Lab: voltage divider, Id-Vgs Level-1 MOS characteristic.
+- **Day-3 (May 27, Wed)**:
+  - RC Circuit transient analysis and problems.
+  - Active OpAmp circuits.
+  - ngspice Lab simulating RC circuits
+    - Step response of RC and CR circuits and response for a pulse train when *RC >> tau*
 
 # Resources
 
@@ -124,9 +132,11 @@
 
 - **LAB RESOURCES**
   - [ADALM 2000 Wiki](https://wiki.analog.com/m2k)
-    - [ADALM 2000 Qucik Start: Install Drivers](https://wiki.analog.com/university/tools/m2k/users/quick_start)
+    - [ADALM User guide](https://wiki.analog.com/university/tools/m2k/users)
+      - [ADALM 2000 Qucik Start: Install Drivers](https://wiki.analog.com/university/tools/m2k/users/quick_start)
     - [Install the GUI interface Scopy](https://wiki.analog.com/university/tools/m2k/scopy)
     - :arrow_forward: [ADLAM 2000 Video Series](https://www.youtube.com/watch?v=LCf-_iREESQ&list=PLE6soOeVPOJ0Pj5sMui4KPDiTa7HY50y3)
+    - [Hardware Portal](https://wiki.analog.com/university/tools/m2k/devs/hardware): All **schematics, gerber, BOM**.
   - [Analog Devices Engineering Ubiversity Program](https://wiki.analog.com/university): Lots of great material including Labs, exercised and material related to ADALM M2K
   - 
  
