@@ -56,15 +56,19 @@
 ## TEXTS/REFERENCES
 
 - **TEXTS**
-  - [**JohnsMartin**] T. C. Carusone, D. A. Johns, and K. A. Martin, Analog Integrated Circuit Design, 2nd ed. Wiley, 2012. [Online](https://www.box.com/s/38df9et7alvxdbu/JohnsMartinCarusone-AnalogICDesign-2ndEd-Wiley-2012.pdf?dl=0)
-  - [**Uyemura**] Uyemura, John P. "*CMOS Logic Circuit Design*". Springer, 2007
+  - [[JohnsMartin][JohnsMartin]] T. C. Carusone, D. A. Johns, and K. A. Martin, Analog Integrated Circuit Design, 2nd ed. Wiley, 2012. 
+  - [[Uyemura][Uyemura]], John P. "*CMOS Logic Circuit Design*". Springer, 2007
   - [**Rout**], Saroj. 2025. IC Engineering I. [[eBook](https://mixignal-press.github.io/ebook-ice1/)]
     - Most of the notes covered during this PS will shared on this eBook.
 - **REFERENCES**
-  - [**Thomas**] R. E. Thomas, A. J. Rosa, and G. J. Toussaint, The Analysis and Design of Linear Circuits. John Wiley & Sons, 2016
-  - [**Hodges**] D.A., et.al., "_Analysis and Design of Digital Integrated Circuits_", Tata-McGraw Hill, 3rd Ed
-  - [**Weste**] Weste, Neil, and David Harris. "*CMOS VLSI Design: A Circuits and Systems Perspective*". Pearson Education, 2011 
-  - [**Baker**] Baker, R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
+  - [[Thomas][Thomas]] R. E., A. J. Rosa, and G. J. Toussaint, The Analysis and Design of Linear Circuits. John Wiley & Sons, 2016
+  - [[Hodges][Hodges]] D.A., et.al., "_Analysis and Design of Digital Integrated Circuits_", Tata-McGraw Hill, 3rd Ed
+  - [[Weste][Weste]]  Neil, and David Harris. "*CMOS VLSI Design: A Circuits and Systems Perspective*". Pearson Education, 2011 
+  - [[Baker][Baker]], R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
+  - [[Gray][Gray]], Paul E., and Campbell L. Searle. "*Electronic Principles: Physics, Models and Circuits*". Wiley, 1969.
+    - [15.2 Open-Circuit Time Constants as Design Aid](content/Gray-Searle-OpenCktTimeConstant.pdf)
+    - Lecture notes on Open-Circuit Time Constant [ [Lec-26](https://www.eecs.tufts.edu/~saroj/docs/ee12-2008/pdfs/lecture26.pdf) | [Lec-27](https://www.eecs.tufts.edu/~saroj/docs/ee12-2008/pdfs/lecture27.pdf) ]
+
 
 # COMPUTING RESOURCES
 
@@ -157,6 +161,14 @@
 
 ***
 
+[JohnsMartin]:  https://www.dropbox.com/scl/fi/7jp5q4e3kvalnlbui7p5m/JohnsMartinCarusone-AnalogICDesign-2ndEd-Wiley-2012.pdf?rlkey=exl7b2bmfgoiqyku6f0qeyk7a&dl=0 
+[Uyemura]:  https://www.dropbox.com/scl/fi/rblfckfj6b2bds655ljw7/Uyemura-CMOS-LogicCircuitDesign-1999-Springer.pdf?rlkey=n18cw2raqi95rsoxb3gr478oj&dl=0 
+[Thomas]:   https://www.dropbox.com/scl/fi/83ygnyynx2sfex1h7tdhg/Thomas-AnalysisDesignOfLinearCkts-Wiley-2023.pdf?rlkey=4xzk0an1z7r3fcj936o0enjg4&dl=0 
+[Hodges]:   https://www.dropbox.com/scl/fi/43orxdtdm6u4u5mq68mc2/HodgesJackson-DesignAndAnalysisOfDigitalIC-3Ed-McGraw-2005.pdf?rlkey=1awl7pw48611qd8cnru6az7x5&dl=0 
+[Weste]:    https://www.dropbox.com/scl/fi/8i5pftaeux4x2kzj51cpr/Weste-Harris-CMOS-VLSI-design-Pearson-4thEd-2011.pdf?rlkey=g1efbminflmhqze5o2pc9rnl8&dl=0 
+[Baker]:    https://www.dropbox.com/scl/fi/h3nlnwc1wxho6e6naspiz/Baker-CMOScircuitDesignLayoutSimulation-3rdEd-2010.pdf?rlkey=85voahejqfzixpi317s08lkf4&dl=0 
+[Gray]:     https://www.dropbox.com/scl/fi/7l25x1ya6hfdz6c7anhza/Gray-Searle-ElectronicPrinciples-PhysicsModelsCircuits-Wiley-1969.pdf?rlkey=31fylmvffmchuteat87haymoj&dl=0 
+   
 [NGSpice]:              http://ngspice.sourceforge.net
 [NGSpiceMan]:           http://ngspice.sourceforge.net/docs/ngspice-html-manual/manual.xhtml
 [Magic]:                http://opencircuitdesign.com/magic/
