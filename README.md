@@ -45,6 +45,8 @@
 
 # DAILY LOG
 
+**WEEK-1**:
+
 - **Day-1 (May 25, Mon)**:
   - :arrow_forward: [Course introduction](https://zoom.us/rec/share/OOBTsOISkuCPmlhbLhCYLFFPqYNNfJSXYKO9VQ62x1v5FaKe4dWXrz6dCp2GrkzF.0aFgevXVkF9kcaGj?startTime=1779686377000)
   - [USB Mic System Description](content/lec-usb-mic-system.md)
@@ -65,6 +67,17 @@
   - Thevenin equivalent of the MEMS microphone.
   - Modeling of the Analog Front-End (AFE) of the amplifier.
   - Lab: Getting started with ADALM 2000 (contd.)
+
+**WEEK-2**:
+
+- **Day-6 (June 1, Mon)**
+  - [Lab: Modeling of MEMs Microphone and Analog Front-Edn (AFE)](content/lab-eda-mic-amp.md)
+  - [Lab: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md(contd.))
+  - [Lab: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
+- **Day-7 (June 2, Tue)**
+  - Introduction to IC Design flow.
+  - Introdcution to MOS
+  - Lab: Microphone and AFE test and characterization.
 
 # Resources
 
