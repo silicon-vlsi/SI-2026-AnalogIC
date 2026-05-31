@@ -76,7 +76,7 @@
   - [Lab: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
 - **Day-7 (June 2, Tue)**
   - Introduction to IC Design flow.
-  - Introdcution to MOS
+  - Introdcution to Passive Devices
   - Lab: Microphone and AFE test and characterization.
 
 # Resources
