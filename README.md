@@ -59,6 +59,7 @@
   - ngspice Lab simulating RC circuits
     - Step response of RC and CR circuits and response for a pulse train when *RC >> tau*
 - **Day-4 (May 28, Thu)**:
+  - [Slides: RC and Active Circuit](content/lec-circuit-review.pdf)
   - Frequency resposne of linear circuits (high-pass/low-pass)
   - Lab: Getting started with ADALM 2000
 - **Day-5 (May 29, Fri)**:
