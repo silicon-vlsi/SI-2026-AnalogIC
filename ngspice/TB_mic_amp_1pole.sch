@@ -24,24 +24,38 @@ N 110 -320 110 -310 {lab=vref}
 N 160 -320 160 -310 {lab=vref}
 N 110 -320 160 -320 {lab=vref}
 N 110 -330 110 -320 {lab=vref}
-N 490 -150 490 -100 {lab=GND}
+N 490 -130 490 -100 {lab=GND}
 N 420 -280 420 -160 {lab=viom}
 N 380 -160 420 -160 {lab=viom}
 N 420 -340 450 -340 {lab=viom}
 N 420 -280 450 -280 {lab=viom}
 N 420 -340 420 -280 {lab=viom}
 N 510 -340 540 -340 {lab=vout}
-N 540 -280 540 -230 {lab=vout}
-N 490 -230 540 -230 {lab=vout}
-N 490 -230 490 -210 {lab=vout}
+N 490 -230 490 -210 {lab=#net1}
 N 510 -280 540 -280 {lab=vout}
 N 540 -340 540 -280 {lab=vout}
-N 540 -230 620 -230 {lab=vout}
-N 620 -230 620 -210 {lab=vout}
-N 620 -150 620 -100 {lab=GND}
+N 870 -130 870 -80 {lab=GND}
 N 160 -320 200 -320 {lab=vref}
 N 200 -320 200 -200 {lab=vref}
 N 200 -200 450 -200 {lab=vref}
+N 490 -230 550 -230 {lab=#net1}
+N 610 -230 640 -230 {lab=volpf}
+N 640 -210 640 -200 {lab=volpf}
+N 640 -210 720 -210 {lab=volpf}
+N 640 -230 640 -210 {lab=volpf}
+N 700 -130 760 -130 {lab=GND}
+N 490 -150 490 -130 {lab=GND}
+N 760 -160 760 -130 {lab=GND}
+N 640 -140 640 -130 {lab=GND}
+N 490 -130 640 -130 {lab=GND}
+N 700 -170 720 -170 {lab=GND}
+N 700 -170 700 -130 {lab=GND}
+N 640 -130 700 -130 {lab=GND}
+N 540 -280 760 -280 {lab=vout}
+N 760 -230 760 -220 {lab=vout}
+N 870 -230 870 -190 {lab=vout}
+N 760 -230 870 -230 {lab=vout}
+N 760 -280 760 -230 {lab=vout}
 C {vsource.sym} 20 -100 0 0 {name=Vmic value="0.6 AC 1 SIN(0 VAMP FREQ)" savecurrent=false}
 C {res.sym} 120 -160 1 0 {name=Rmic
 value=380
@@ -58,7 +72,7 @@ value=4.7k
 footprint=1206
 device=resistor
 m=1}
-C {vcvs.sym} 490 -180 0 0 {name=E1 value=10e5}
+C {vcvs.sym} 490 -180 0 0 {name=E1 value=10e6}
 C {vsource.sym} 20 -320 0 0 {name=V2 value=2.5 savecurrent=false}
 C {res.sym} 480 -280 1 0 {name=R3
 value=300k
@@ -88,21 +102,20 @@ device="ceramic capacitor"}
 C {gnd.sym} 20 -40 0 0 {name=l1 lab=GND}
 C {gnd.sym} 490 -100 0 0 {name=l2 lab=GND}
 C {gnd.sym} 110 -230 0 0 {name=l3 lab=GND}
-C {capa.sym} 620 -180 0 0 {name=C4
+C {capa.sym} 870 -160 0 0 {name=C4
 m=1
 value=1p
 footprint=1206
 device="ceramic capacitor"}
-C {gnd.sym} 620 -100 0 0 {name=l4 lab=GND}
+C {gnd.sym} 870 -80 0 0 {name=l4 lab=GND}
 C {lab_wire.sym} 60 -160 0 0 {name=p1 sig_type=std_logic lab=vin}
 C {lab_wire.sym} 190 -160 0 0 {name=p2 sig_type=std_logic lab=vin1}
 C {lab_wire.sym} 310 -160 0 0 {name=p3 sig_type=std_logic lab=vin2}
 C {lab_wire.sym} 410 -200 0 0 {name=p4 sig_type=std_logic lab=vref}
 C {lab_wire.sym} 60 -400 0 0 {name=p5 sig_type=std_logic lab=Vbat}
-C {lab_wire.sym} 590 -230 0 0 {name=p6 sig_type=std_logic lab=vout}
 C {lab_wire.sym} 440 -160 0 0 {name=p7 sig_type=std_logic lab=viom}
-C {title.sym} 10 50 0 0 {name=l5 author="SI-2026 Analog IC: Mic modeling"}
-C {devices/code_shown.sym} 720 -720 0 0 {name=NGSPICE only_toplevel=true 
+C {title.sym} 160 60 0 0 {name=l5 author="SI-2026 Analog IC: Mic modeling"}
+C {devices/code_shown.sym} 960 -650 0 0 {name=NGSPICE only_toplevel=true 
 value="
 .PARAM temp=27
 **
@@ -125,6 +138,8 @@ LET voutm3db = voutdb_1k - 3.0
 MEAS AC fp3db WHEN voutdb=voutm3db fall=last
 MEAS AC fz3db WHEN voutdb=voutm3db rise=1
 
+plot vdb(vout)
+
 WRITE
 
 TRAN 1u 5m
@@ -138,3 +153,16 @@ PRINT gain_tran
 
 .endc
 "}
+C {res.sym} 580 -230 1 0 {name=R1
+value=160k
+footprint=1206
+device=resistor
+m=1}
+C {capa.sym} 640 -170 0 0 {name=C5
+m=1
+value=1u
+footprint=1206
+device="ceramic capacitor"}
+C {vcvs.sym} 760 -190 0 0 {name=E2 value=1}
+C {lab_wire.sym} 700 -210 0 0 {name=p6 sig_type=std_logic lab=volpf}
+C {lab_wire.sym} 840 -230 0 0 {name=p8 sig_type=std_logic lab=vout}
