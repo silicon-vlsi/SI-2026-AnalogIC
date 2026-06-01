@@ -30,6 +30,7 @@
 - Lab0: Linux, nano/vim, git
   - [[Getting Started with Linux](content/lab0-getStarted-linux-cli.md)] [[Link to source page](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/)]
   - [Getting started with GitHub](content/lab0-getStarted-github.md)
+- [Lab: Modeling of the MEMS microphone and analog front-end (AFE)](content/lab-eda-mic-amp.md)
 
 ## ADALM Exercises
 - [Lab1: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md)
