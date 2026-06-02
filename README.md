@@ -77,9 +77,11 @@
   - [Lab: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md(contd.))
   - [Lab: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
 - **Day-7 (June 2, Tue)**
-  - Introduction to IC Design flow.
-  - Introdcution to Passive Devices
+  - [Introduction to IC Design flow](content/lec-intro-vlsi-0602-2026.pdf)
   - Lab: Microphone and AFE test and characterization.
+- **Day-8 (June 3, Wed)**
+  - Introdcution to Passive Devices
+  - Lab: TBD
 
 # Resources
 
