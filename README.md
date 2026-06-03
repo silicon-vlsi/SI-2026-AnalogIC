@@ -2,26 +2,52 @@
 
 **SUMMER INTERNSHIP COURSE 2026**
 
-##  Course Venue & Timings
 
-- 📆 **DURATION**: May 25th till June 13th (3 weeks, Mon-Fri)
-- ⏲️ **TIMINGS**:
-  - Session-1: 🕙 **10:00am - 1:00pm**
-  - Session-2: 🕝 **2:00pm - 5:00pm**
-- 🏛️ **VENUE**: VLSI Lab 
-- 👨‍🏫 **RESOURCE PERSONS**:
-  - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
-  - [Dr. Santunu Sarangi](https://www.linkedin.com/in/santunu-sarangi-b731305b/), *Technical Lead & Site Head, Sevya Multimedia, Bhubaneswar*
+# DAILY LOG
 
-**COURSE INFORMATION**
+**WEEK-1**:
 
-- 🔗 [**Course Detail**](content/course-detail.md)
-- 🔗 [**Day-Wise Course Plan**](content/Day-Wise-Plan.md)
-- **CAD and IT Setup** (These need to be setup before 2nd June)
-  - 🔗 [Follow this guide](content/cad-install-setup-wsl-ubuntu.md) to install **Ubuntu 24.04** on **Windows Subsytem for Linux (WSL)**
-    - ▶️ [YouTube video](https://youtu.be/-qRGRr0xy_c): quick walk through the installation and setup of WSL, Ubuntu and EDA tools.
-  - 🔗 [Follow this quick start guide](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/) to get familiar with **Linux Command Line**
-  - **nano** is a good text editor for begineers. 
+- **Day-1 (May 25, Mon)**:
+  - :arrow_forward: [Course introduction](https://zoom.us/rec/share/OOBTsOISkuCPmlhbLhCYLFFPqYNNfJSXYKO9VQ62x1v5FaKe4dWXrz6dCp2GrkzF.0aFgevXVkF9kcaGj?startTime=1779686377000)
+  - [USB Mic System Description](content/lec-usb-mic-system.md)
+  - Getting started with Linux, git.
+  - Basic circuit assesment quiz.
+- **Day-2 (May 26, Tue)**:
+  - [Linear Circuits](https://mixignal-press.github.io/ebook-ice1/circuits.html): Superposition, KCL, KVL, Node, Mesh, Thevnin, Norton and Max power transfer.
+  - [Ngspice-xschem Lab](xschem-ngspice/getStarted): voltage divider, Id-Vgs Level-1 MOS characteristic.
+- **Day-3 (May 27, Wed)**:
+  - RC Circuit transient analysis and problems.([Slides: RC and Active Circuit](content/lec-circuit-review.pdf)) 
+  - Active OpAmp circuits.
+  - ngspice Lab simulating RC circuits ([Spice Files](xschem-ngspice/getStarted))
+    - Step response of RC and CR circuits and response for a pulse train when *RC >> tau*
+- **Day-4 (May 28, Thu)**:
+  - [Slides: RC and Active Circuit](content/lec-circuit-review.pdf)
+  - Frequency response of linear circuits (high-pass/low-pass)
+  - [Lab: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md)
+- **Day-5 (May 29, Fri)**:
+  - Thevenin equivalent of the MEMS microphone.
+  - Modeling of the Analog Front-End (AFE) of the amplifier.
+  - [Worksheet](https://github.com/silicon-vlsi/SI-2025-AnalogIC/blob/main/content/worksheet.md): Mic's thevenin model, amplifier analysis, single-pole model of OPA344.
+  - Lab: Getting started with ADALM 2000 (contd.)
+
+**WEEK-2**:
+
+- **Day-6 (June 1, Mon)**
+  - [Lab: Modeling of MEMs Microphone and Analog Front-Edn (AFE)](content/lab-eda-mic-amp.md)
+  - [Lab: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md(contd.))
+  - [Lab: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
+- **Day-7 (June 2, Tue)**
+  - [Introduction to IC Design flow](content/lec-intro-vlsi-0602-2026.pdf)
+  - Lab: Microphone and AFE test and characterization.
+- **Day-8 (June 3, Wed)**
+  - [Passive IC Devices](https://mixignal-press.github.io/ebook-ice1/passives.html)
+  - [Introduction to Semiconductors](https://mixignal-press.github.io/ebook-ice1/devices.html)
+  - Lab: Microphone AFE using xschem-ngspice.
+
+# PROBLEMS/ASSIGNMENTS
+
+- [Electric Circuit Problems](content/assignment-Electrical-Circuits.pdf)
+- [RC Circuits](content/assignment-RC-Circuit.pdf)
 
 # LAB EXERCISES
 
@@ -38,51 +64,6 @@
 - [Lab3: RC transient response](https://wiki.analog.com/university/courses/electronics/rc_transient_response) (From ADALM univ course page)
 - [Lab4: Low-Pass Filter Bode Plot](https://wiki.analog.com/university/courses/electronics/lp_hp_filters)
 
-# PROBLEMS/ASSIGNMENTS
-
-- [Electric Circuit Problems](content/assignment-Electrical-Circuits.pdf)
-- [RC Circuits](content/assignment-RC-Circuit.pdf)
-
-
-# DAILY LOG
-
-**WEEK-1**:
-
-- **Day-1 (May 25, Mon)**:
-  - :arrow_forward: [Course introduction](https://zoom.us/rec/share/OOBTsOISkuCPmlhbLhCYLFFPqYNNfJSXYKO9VQ62x1v5FaKe4dWXrz6dCp2GrkzF.0aFgevXVkF9kcaGj?startTime=1779686377000)
-  - [USB Mic System Description](content/lec-usb-mic-system.md)
-  - Getting started with Linux, git.
-  - Basic circuit assesment quiz.
-- **Day-2 (May 26, Tue)**:
-  - Linear Circuits: Superposition, KCL, KVL, Node, Mesh, Thevnin, Norton and Max power transfer.
-  - Ngspice-xschem Lab: voltage divider, Id-Vgs Level-1 MOS characteristic.
-- **Day-3 (May 27, Wed)**:
-  - RC Circuit transient analysis and problems.
-  - Active OpAmp circuits.
-  - ngspice Lab simulating RC circuits
-    - Step response of RC and CR circuits and response for a pulse train when *RC >> tau*
-- **Day-4 (May 28, Thu)**:
-  - [Slides: RC and Active Circuit](content/lec-circuit-review.pdf)
-  - Frequency resposne of linear circuits (high-pass/low-pass)
-  - Lab: Getting started with ADALM 2000
-- **Day-5 (May 29, Fri)**:
-  - Thevenin equivalent of the MEMS microphone.
-  - Modeling of the Analog Front-End (AFE) of the amplifier.
-  - Lab: Getting started with ADALM 2000 (contd.)
-
-**WEEK-2**:
-
-- **Day-6 (June 1, Mon)**
-  - [Lab: Modeling of MEMs Microphone and Analog Front-Edn (AFE)](content/lab-eda-mic-amp.md)
-  - [Lab: Introduction to ADALM 2000](content/lab1-adalm2k-intro.md(contd.))
-  - [Lab: Voltage divider, Thevenin equivalance](content/lab2-adalm2k-thevenin.md)
-- **Day-7 (June 2, Tue)**
-  - [Introduction to IC Design flow](content/lec-intro-vlsi-0602-2026.pdf)
-  - Lab: Microphone and AFE test and characterization.
-- **Day-8 (June 3, Wed)**
-  - Introdcution to Passive Devices
-  - Lab: TBD
-
 # Resources
 
 ## TEXTS/REFERENCES
@@ -96,6 +77,7 @@
   - [[Thomas][Thomas]] R. E., A. J. Rosa, and G. J. Toussaint, The Analysis and Design of Linear Circuits. John Wiley & Sons, 2016
   - [[Hodges][Hodges]] D.A., et.al., "_Analysis and Design of Digital Integrated Circuits_", Tata-McGraw Hill, 3rd Ed
   - [[Weste][Weste]]  Neil, and David Harris. "*CMOS VLSI Design: A Circuits and Systems Perspective*". Pearson Education, 2011 
+    - [Annotated Chapter on IC Processing](https://www.dropbox.com/scl/fi/fm6tyicvb72crje7r51ey/Weste-JohnsMartin-CMOSprocessing-Layout-Highlight-annotate.pdf?rlkey=wqcjq4fhb79qwxkiue2gihdx9&dl=0): Also chapter from Johns-Martin. Great reference for IC processing and layout.
   - [[Baker][Baker]], R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
   - [[Gray][Gray]], Paul E., and Campbell L. Searle. "*Electronic Principles: Physics, Models and Circuits*". Wiley, 1969.
     - [15.2 Open-Circuit Time Constants as Design Aid](content/Gray-Searle-OpenCktTimeConstant.pdf)
@@ -188,6 +170,27 @@
   - [Bandgap Reference](https://github.com/silicon-vlsi/BGR_DESIGN_SKY130nm)
   - [CubeSat Summer Internship Student Report](https://github.com/DonaldB2003/SI-2024-CubeSat-SU)
 
+
+##  Course Venue & Timings
+
+- 📆 **DURATION**: May 25th till June 13th (3 weeks, Mon-Fri)
+- ⏲️ **TIMINGS**:
+  - Session-1: 🕙 **10:00am - 1:00pm**
+  - Session-2: 🕝 **2:00pm - 5:00pm**
+- 🏛️ **VENUE**: VLSI Lab 
+- 👨‍🏫 **RESOURCE PERSONS**:
+  - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
+  - [Dr. Santunu Sarangi](https://www.linkedin.com/in/santunu-sarangi-b731305b/), *Technical Lead & Site Head, Sevya Multimedia, Bhubaneswar*
+
+**COURSE INFORMATION**
+
+- 🔗 [**Course Detail**](content/course-detail.md)
+- 🔗 [**Day-Wise Course Plan**](content/Day-Wise-Plan.md)
+- **CAD and IT Setup** (These need to be setup before 2nd June)
+  - 🔗 [Follow this guide](content/cad-install-setup-wsl-ubuntu.md) to install **Ubuntu 24.04** on **Windows Subsytem for Linux (WSL)**
+    - ▶️ [YouTube video](https://youtu.be/-qRGRr0xy_c): quick walk through the installation and setup of WSL, Ubuntu and EDA tools.
+  - 🔗 [Follow this quick start guide](https://www.makeuseof.com/tag/a-quick-guide-to-get-started-with-the-linux-command-line/) to get familiar with **Linux Command Line**
+  - **nano** is a good text editor for begineers. 
 
 ---
 &copy; 2026 Silicon University, Odisha  
