@@ -169,7 +169,7 @@
   - [CubeSat Summer Internship Student Report](https://github.com/DonaldB2003/SI-2024-CubeSat-SU)
 
 
-##  Course Venue & Timings
+#  Course Venue & Timings
 
 - 📆 **DURATION**: May 25th till June 13th (3 weeks, Mon-Fri)
 - ⏲️ **TIMINGS**:
