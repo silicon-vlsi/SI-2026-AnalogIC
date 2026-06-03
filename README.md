@@ -64,9 +64,7 @@
 - [Lab3: RC transient response](https://wiki.analog.com/university/courses/electronics/rc_transient_response) (From ADALM univ course page)
 - [Lab4: Low-Pass Filter Bode Plot](https://wiki.analog.com/university/courses/electronics/lp_hp_filters)
 
-# Resources
-
-## TEXTS/REFERENCES
+# TEXTS/REFERENCES
 
 - **TEXTS**
   - [[JohnsMartin][JohnsMartin]] T. C. Carusone, D. A. Johns, and K. A. Martin, Analog Integrated Circuit Design, 2nd ed. Wiley, 2012. 
