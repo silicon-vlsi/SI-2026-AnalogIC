@@ -43,11 +43,14 @@
   - [Passive IC Devices](https://mixignal-press.github.io/ebook-ice1/passives.html)
   - [Introduction to Semiconductors](https://mixignal-press.github.io/ebook-ice1/devices.html)
   - Lab: Microphone AFE using xschem-ngspice.
+- **Day-9 (June 4, Thu)**
+  - [Siliwiz Assignemnt](content/assignment-siliwiz-0604-2026.pdf)
 
 # PROBLEMS/ASSIGNMENTS
 
 - [Electric Circuit Problems](content/assignment-Electrical-Circuits.pdf)
 - [RC Circuits](content/assignment-RC-Circuit.pdf)
+- [Siliwiz Assignemnt](content/assignment-siliwiz-0604-2026.pdf)
 
 # LAB EXERCISES
 
