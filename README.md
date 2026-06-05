@@ -47,6 +47,8 @@
   - [Semiconductor IC Devices](content/lec-Semiconductor-IC-Devices-0604-2026.pdf): Semicondcutor devices, MOS Devices FIXME: add file
   - [IC Design Process](content/lec-intro-process-WestHarris-0604-2026.pdf) FIXME: add file
   - [Siliwiz Assignemnt](content/assignment-siliwiz-0604-2026.pdf)
+- **Day-10 (June 5, Fri)**
+  - [Lab: Parameter extraction](content/lab-eda-param-extract.md)
 
 # PROBLEMS/ASSIGNMENTS
 
