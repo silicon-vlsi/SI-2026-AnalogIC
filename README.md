@@ -44,11 +44,12 @@
   - [Introduction to Semiconductors](https://mixignal-press.github.io/ebook-ice1/devices.html)
   - Lab: Microphone AFE using xschem-ngspice.
 - **Day-9 (June 4, Thu)**
-  - [Semiconductor IC Devices](content/lec-Semiconductor-IC-Devices-0604-2026.pdf): Semicondcutor devices, MOS Devices FIXME: add file
-  - [IC Design Process](content/lec-intro-process-WestHarris-0604-2026.pdf) FIXME: add file
+  - [Semiconductor IC Devices](content/lec-SemiConductor-IC-Devices-0604-2026.pdf): Semicondcutor devices, MOS Devices 
+  - [IC Design Process](content/lec-intro-process-WesteHarris-0604-2026.pdf) 
   - [Siliwiz Assignemnt](content/assignment-siliwiz-0604-2026.pdf)
 - **Day-10 (June 5, Fri)**
   - [Lab: Parameter extraction](content/lab-eda-param-extract.md)
+  - [Modeling of MOS transistors in Spice](content/lec-Ch04_Modeling_of_MOS-0604-2026.pdf) Slides from Kang et.al.
 
 # PROBLEMS/ASSIGNMENTS
 
