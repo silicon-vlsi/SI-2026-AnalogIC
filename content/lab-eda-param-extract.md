@@ -51,3 +51,7 @@ print Vt
 
 - Extract the parameters for the following [Level-49 Model](https://github.com/silicon-vlsi/SI-2026-AnalogIC/blob/main/xschem-ngspice/getStarted/scn4m_cnrs_bsim3v1.lib)
 - Extract the parameters for the SKY130 models
+
+# Level-1 vs Level-49 Comparison
+
+- Plot Id-Vds for different Vgs comparing Level-1 and Level-49 in the same plot
