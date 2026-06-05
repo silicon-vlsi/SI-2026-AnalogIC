@@ -1,11 +1,54 @@
 # Cheatsheet: ngspice 
 
 Here is an unsorted list of useful ngspice settings and command:
+## Reference Netlist and Commands
+
+``` spice
+* Level-1 Model 
+.MODEL nmos1 NMOS (LEVEL=1 PHI=0.846 VT0=0.514 KP=122U GAMMA=0.55 LAMBDA=0.0)
+
+* Junction Temperature
+.TEMP 27
+
+*Vpulse n1	n2	PULSE v1 v2 td tr tf pw per
+Vpulse	vin     0   DC=0 AC=1 PULSE 0 5 2n 10p 10p 10n 20n
+
+* Sim commands
+.DC	Vds	0	5	0.001  Vsb  0 1 0.5
+.TRAN 1p 30n
+
+.MEASURE TRAN tr1090 TRIG v(vout) VAL=0.5 RISE=1 TARG v(vout) VAL=4.5 RISE=1
+.CONTROL
+  RUN
+  SAVE all
+  AC DEC 100 10 10e9
+  MEAS AC vdbmax MAX vdb(vout)
+  LET v3db = vdbmax - 3.0
+  MEAS AC f3db WHEN vdb(vout)=v3db fall=last
+  write rc-step.raw
+  PLOT Vid2#branch vs V(D)
+  PLOT (2*Vid2#branch)^0.5  vs V(D) 
+** Calculating uCox from rt-Id-Vgs slope
+  LET rt_id=Vid2#branch^0.5 
+  LET d_rt_id=deriv(rt_id)
+  MEAS DC d_at_1v FIND d_rt_id AT=2.0
+  LET ucox=(2.0/5.0)*d_at_1v^2.0
+  print ucox
+** Calculating Vt by calculating the intercept
+  MEAS DC rt_id_at_1  FIND rt_id AT=2.0
+  LET Vt=2.0-(d_at_1v^-1 * rt_id_at_1)
+  print Vt
+.ENDC
+
+```
 
 ## Commands
 
+- `.MODEL <name> <type> ()` eg. Level-1 model:
+  - `.MODEL nmos1 NMOS (LEVEL=1 PHI=0.846 VT0=0.514 KP=122U GAMMA=0.55 LAMBDA=0.0)`
 - `ac dec|lin points fstart fstop` performs a small-signal ac analysis with either linear or decade sweep
 - `dc sourcename vstart vstop vincr [src2 start2 stop2 incr2]` runs a dc-sweep, optionally across two variables
+  - `.DC	Vds	0	5	0.001  Vsb  0 1 0.5`
 - `display` shows the available data vectors in the current plot
 - `echo` can be used to display text, `$variable` or `$&vector`, can be useful for debugging
 - `let name = expr` to create a new vector; `unlet vector` deletes a specified vector; access vector data with `$&vec`
