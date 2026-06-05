@@ -44,6 +44,8 @@
   - [Introduction to Semiconductors](https://mixignal-press.github.io/ebook-ice1/devices.html)
   - Lab: Microphone AFE using xschem-ngspice.
 - **Day-9 (June 4, Thu)**
+  - [Semiconductor IC Devices](content/lec-Semiconductor-IC-Devices-0604-2026.pdf): Semicondcutor devices, MOS Devices FIXME: add file
+  - [IC Design Process](content/lec-intro-process-WestHarris-0604-2026.pdf) FIXME: add file
   - [Siliwiz Assignemnt](content/assignment-siliwiz-0604-2026.pdf)
 
 # PROBLEMS/ASSIGNMENTS
