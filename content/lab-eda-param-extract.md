@@ -7,7 +7,7 @@ This lab exercise is to extract "Level-1" parameters mainly:
 - `Gamma` (sqrt(V) : Body-effect Parameter.
 - `Lambda` : Channel length modulation.
 
-You can use the this [netlist](xschem-ngspice/param-extract.sp) as a reference.
+You can use the this [netlist](https://github.com/silicon-vlsi/SI-2026-AnalogIC/blob/main/xschem-ngspice/param-xtract.sp) as a reference.
 
 # Parameter Extraction of Level-1 Model
 
@@ -49,5 +49,5 @@ print Vt
 
 # Extract Parameters for Level-49 BSIM Model
 
-- Extract the parameters for the following [Level-49 Model](xschem-ngspice/getStarted/scn4m_cnrs_bsim3v1.lib)
+- Extract the parameters for the following [Level-49 Model](https://github.com/silicon-vlsi/SI-2026-AnalogIC/blob/main/xschem-ngspice/getStarted/scn4m_cnrs_bsim3v1.lib)
 - Extract the parameters for the SKY130 models
